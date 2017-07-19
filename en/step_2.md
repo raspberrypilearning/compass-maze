@@ -1,13 +1,14 @@
-## What you will need
+--- challenge ---
+## Challenge: Create your own maze
 
-### Hardware
+Create your own colourful maze and get a friend to try and find their way out using the Sense HAT compass.
 
-+ List hardware here, or delete section.
+You'll need to:
 
-### Software
++ Edit the rooms dictionary in maze.py
++ Edit the colours dictionary in maze.py
 
-+ List software here, or delete section.
+It might help to draw your map on paper first.
 
-### Additional Resources
 
-+ List additional resources, or delete section.
+--- /challenge ---
