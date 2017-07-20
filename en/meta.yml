@@ -13,6 +13,11 @@ interests: ''
 technologies: sense-hat
 site_areas: codeclub, sense-hat
 steps:
+- title: 'Introduction: '
+- title: Finding the compass direction
+- title: Showing the compass direction
+- title: Navigating the maze
+- title: Add colours
 - title: 'Challenge: Reward the player'
 - title: 'Challenge: Create your own maze'
 

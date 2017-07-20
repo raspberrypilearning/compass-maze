@@ -1,16 +1,23 @@
---- challenge ---
-## Challenge: Reward the player
+## Introduction: 
 
-Can you reward the player with a cool display on the Sense HAT when they manage to escape?
+In this project you will use the the Sense HAT as a compass to navigate out of a maze of colourful rooms. You will need to point the Sense HAT in the direction you want to move and then press the button in the middle of the joystick to make a move.
 
-You'll need to replace the highlighted code with your own code:
+<div class="trinket">
+<iframe src="https://trinket.io/embed/python/0c8cdacd70?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
+<img src="images/compass-final.png">
+</div>
 
-![screenshot](images/compass-reward.png)
+To play the game press Run and read the text that appears in the trinket output window.
+
+Your current compass direction will appear on the Sense HAT display (N, S, E or W.) You can change direction by moving the Sense HAT in the emulator.
+
+When you are facing in the direction you want to go, press the middle button on the joystick by pressing enter on the keyboard.
 
 
---- /challenge ---### Additional information for club leaders
+### Additional information for club leaders
 
-If you need to print this project, please use the [Printer friendly version](./print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberry-pi.org/en/projects/compass-maze/print).
 
 
 --- collapse ---
