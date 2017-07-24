@@ -17,7 +17,7 @@ When you are facing in the direction you want to go, press the middle button on 
 
 ### Additional information for club leaders
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberry-pi.org/en/projects/compass-maze/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/compass-maze/print).
 
 
 --- collapse ---
