@@ -7,7 +7,7 @@
 </iframe> <img src="images/compass-final.png" />
 </div>
 
-To play the game press Run and read the text that appears in the trinket output window.
+गेम को चलाने के लिए Run (चलाएँ) को दबाएँ और trinket आउटपुट विंडो में दिखाई देने वाले पाठ को पढ़ें।
 
 Your current compass direction will appear on the Sense HAT display (N, S, E or W.) You can change direction by moving the Sense HAT in the emulator.
 
