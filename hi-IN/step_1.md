@@ -1,6 +1,6 @@
-## Introduction:
+## परिचय:
 
-In this project you will use the the Sense HAT as a compass to navigate out of a maze of colourful rooms. You will need to point the Sense HAT in the direction you want to move and then press the button in the middle of the joystick to make a move.
+इस प्रोजेक्ट में आप रंगीन कमरों की भूलभुलैया से बाहर निकलने के लिए Sense HAT का उपयोग एक कंपास के रूप में करेंगे। आपको Sense HAT को उस दिशा में इंगित करने की आवश्यकता होगी, जिस दिशा में आप जाना चाहते हैं और फिर आगे जाने के लिए जॉयस्टिक के बीच के बटन को दबाएँ।
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/0c8cdacd70?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark">
