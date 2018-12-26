@@ -9,7 +9,7 @@
 
 गेम को चलाने के लिए Run (चलाएँ) को दबाएँ और trinket आउटपुट विंडो में दिखाई देने वाले पाठ को पढ़ें।
 
-Your current compass direction will appear on the Sense HAT display (N, S, E or W.) You can change direction by moving the Sense HAT in the emulator.
+आपकी वर्तमान कंपास दिशा Sense HAT के डिस्प्ले पर (N (उत्तर), S (दक्षिण), E (पूर्व) or W (पश्चिम)) दिखाई देगी। आप एमुलेटर में Sense HAT को चला कर दिशा बदल सकते हैं।
 
 When you are facing in the direction you want to go, press the middle button on the joystick by pressing enter on the keyboard.
 
