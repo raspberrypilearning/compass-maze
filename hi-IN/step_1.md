@@ -11,21 +11,21 @@
 
 आपकी वर्तमान कंपास दिशा Sense HAT के डिस्प्ले पर (N (उत्तर), S (दक्षिण), E (पूर्व) or W (पश्चिम)) दिखाई देगी। आप एमुलेटर में Sense HAT को चला कर दिशा बदल सकते हैं।
 
-When you are facing in the direction you want to go, press the middle button on the joystick by pressing enter on the keyboard.
+जब आपका मुँह उस दिशा में होता है जिसमें आप जाना चाहते हैं, तो कुंजीपटल पर एंटर दबाकर जॉयस्टिक पर बीच का बटन दबाएँ।
 
-### Additional information for club leaders
+### क्लब लीडरों के लिए अतिरिक्त जानकारी
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/compass-maze/print).
+यदि आप इस प्रोजेक्ट को प्रिंट करना चाहते हैं, तो कृपया [प्रिंटर अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/compass-maze/print) का उपयोग करें।
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: क्लब लीडर की टिप्पणियाँ
 
-## Introduction:
+## परिचय:
 
 In this project, children will learn how to use the Sense HAT magnetometer (compass), and use the compass direction to navigate through a maze.
 
-## Online Resources
+## ऑनलाइन संसाधन
 
 **This project uses Python 3.** We recommend using [Trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
