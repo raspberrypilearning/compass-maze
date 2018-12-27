@@ -78,7 +78,7 @@
 ## क्लब लीडर संसाधन
 
 * [सभी प्रोजेक्ट संसाधनों वाली .zip फ़ाइल](resources/compass-maze-volunteer-resources.zip)
-* [Online completed Trinket Compass Maze project](https://trinket.io/python/0c8cdacd70)
+* [ऑनलाइन पूरी की गई Trinket Compass Maze प्रोजेक्ट](https://trinket.io/python/0c8cdacd70)
 * [compass-maze-finished/main.py](resources/compass-maze-finished-main.py)
 * [compass-maze-finished/maze.py](resources/compass-maze-finished-maze.py)
 
