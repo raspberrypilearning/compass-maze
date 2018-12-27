@@ -47,14 +47,13 @@
 * compass-maze-finished/main.py
 * compass-maze-finished/maze.py
 
-(उपर्युक्त सभी संसाधन प्रोजेक्ट और स्वयंसेवक `.zip फ़ाइलों के रूप में भी डाउनलोड किए जा सकते हैं।)</p>
+(उपर्युक्त सभी संसाधन प्रोजेक्ट और स्वयंसेवक `.zip` फ़ाइलों के रूप में भी डाउनलोड किए जा सकते हैं।)
 
-<h2>Learning Objectives</h2>
+## अध्ययन के उद्देश्य
 
-<ul>
-<li>How to use the Sense HAT magnetometer (<code>get_compass()`)</li> </ul> 
+* Sense HAT मैग्नेटोमीटर (`get_compass()`) का उपयोग कैसे करें
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+इस प्रोजेक्ट में [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) के निम्नलिखित पहलुओं के तत्वों को शामिल किया गया है:
 
 * [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
