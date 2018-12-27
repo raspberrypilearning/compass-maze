@@ -55,29 +55,29 @@
 
 इस प्रोजेक्ट में [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) के निम्नलिखित पहलुओं के तत्वों को शामिल किया गया है:
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [किसी समस्या को हल करने के लिए प्रोग्रामिंग संरचनाओं को जोड़े।](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## चुनौतियाँ
 
-* "Reward the player" - Displaying n image on the LEDs at the end of the game;
-* "Create your own maze" - edit the maze dictionary to create their own maze.
+* "प्लेयर को पुरस्कृत करें" - गेम के अंत में LED पर n छवि प्रदर्शित करना;
+* "अपनी खुद की भूलभुलैया बनाएँ" - अपनी खुद की भूलभुलैया बनाने के लिए भूलभुलैया शब्दकोश को संपादित करें।
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: प्रोजेक्ट सामग्री
 
-## Project resources
+## प्रोजेक्ट संसाधन
 
-* [.zip file containing all project resources](resources/compass-maze-project-resources.zip)
-* [Compass Maze starter project](http://jumpto.cc/compass-go)
-* [Offline starter Python file](resources/compass-maze-main.py)
-* [Offline starter Python file containing the maze code](resources/compass-maze-maze.py)
+* [सभी प्रोजेक्ट संसाधनों वाली .zip फ़ाइल](resources/compass-maze-project-resources.zip)
+* [Compass Maze स्टार्टर प्रोजेक्ट](http://jumpto.cc/compass-go)
+* [ऑफ़लाइन स्टार्टर Python फ़ाइल](resources/compass-maze-main.py)
+* [ऑफ़लाइन स्टार्टर Python फ़ाइल जिसमें भूलभुलैया कोड होते हैं](resources/compass-maze-maze.py)
 
-## Club leader resources
+## क्लब लीडर संसाधन
 
-* [.zip file containing all completed project resources](resources/compass-maze-volunteer-resources.zip)
+* [सभी प्रोजेक्ट संसाधनों वाली .zip फ़ाइल](resources/compass-maze-volunteer-resources.zip)
 * [Online completed Trinket Compass Maze project](https://trinket.io/python/0c8cdacd70)
 * [compass-maze-finished/main.py](resources/compass-maze-finished-main.py)
 * [compass-maze-finished/maze.py](resources/compass-maze-finished-maze.py)
