@@ -4,13 +4,13 @@ Sense HAT में एक मैग्नेटोमीटर होता ह
 
 एम्यूलेटर में उत्तर दिशा आपकी स्क्रीन के शीर्ष से मेल खाती है। Sense HAT किसी कंपास की दिशा को उत्तर की ओर से डिग्री के रूप में बताता है।
 
-यहाँ किसी कंपास के बिंदुओं को स्मरण के रूप में दिया गया है:
+यहाँ कंपास के बिंदु याद दिलाने के लिए दिए गए हैं:
 
 ![screenshot](images/compass-nsew.png)
 
-+ Compass Maze Starter Trinket को खोलें: <a href="http://jumpto.cc/compass-go" target="_blank">jumpto.cc/compass-go</a>.
++ Compass Maze Starter Trinket को खोलें: <a href="http://jumpto.cc/compass-go" target="_blank">jumpto.cc/compass-go</a>।
 
-+ Let's find out which direction the Sense HAT is pointing in. Add the following code to the bottom of `main.py`:
++ आइए जानें कि Sense HAT किस दिशा में इंगित कर रहा है। `main.py` के नीचे निम्नलिखित कोड को जोड़ें:
     
     ![screenshot](images/compass-get.png)
 
