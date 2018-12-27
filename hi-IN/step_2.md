@@ -2,7 +2,7 @@
 
 Sense HAT में एक मैग्नेटोमीटर होता है जिसका उपयोग यह पता लगाने के लिए किया जा सकता है कि उत्तर दिशा किस तरफ है।
 
-In the emulator North corresponds to the top of your screen. The Sense HAT reports a compass heading in degrees from North.
+एम्यूलेटर में उत्तर दिशा आपकी स्क्रीन के शीर्ष से मेल खाती है। The Sense HAT reports a compass heading in degrees from North.
 
 Here's a reminder of the points of a compass:
 
