@@ -23,13 +23,13 @@
 
 ## परिचय:
 
-In this project, children will learn how to use the Sense HAT magnetometer (compass), and use the compass direction to navigate through a maze.
+इस परियोजना में, बच्चे यह सीखेंगे कि Sense HAT मैग्नेटोमीटर (कंपास) का उपयोग कैसे करें, और किसी भूलभुलैया में से नेविगेट करने के लिए कंपास की दिशा का उपयोग कैसे करें।
 
 ## ऑनलाइन संसाधन
 
-**इस प्रोजेक्ट में Python 3 का उपयोग किया जाता है।** Python को ऑनलाइन लिखने के लिए हम [Trinket](https://trinket.io/) का उपयोग करने की सलाह देते हैं। This project contains the following Trinkets:
+**इस प्रोजेक्ट में Python 3 का उपयोग किया जाता है।** Python को ऑनलाइन लिखने के लिए हम [Trinket](https://trinket.io/) का उपयोग करने की सलाह देते हैं। इस परियोजना में निम्नलिखित Trinkets हैं:
 
-* ['Compass Maze' Starter Trinket -- jumpto.cc/compass-go](http://jumpto.cc/compass-go)
+* ['Compass Maze' (कंपास भूलभुलैया) Starter Trinket -- jumpto.cc/compass-go](http://jumpto.cc/compass-go)
 
 There is also a trinket containing the completed project:
 
