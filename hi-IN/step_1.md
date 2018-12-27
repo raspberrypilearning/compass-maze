@@ -29,9 +29,9 @@
 
 **इस प्रोजेक्ट में Python 3 का उपयोग किया जाता है।** Python को ऑनलाइन लिखने के लिए हम [Trinket](https://trinket.io/) का उपयोग करने की सलाह देते हैं। इस परियोजना में निम्नलिखित Trinkets हैं:
 
-* ['Compass Maze' (कंपास भूलभुलैया) Starter Trinket -- jumpto.cc/compass-go](http://jumpto.cc/compass-go)
+* ['Compass Maze' (कंपास भूलभुलैया) Starter Trinket (स्टार्टर ट्रिंकेट) -- jumpto.cc/compass-go](http://jumpto.cc/compass-go)
 
-There is also a trinket containing the completed project:
+एक ऐसा trinket भी है जिसमें पूर्ण किया गया प्रोजेक्ट है:
 
 * [‘Compass Maze’ Finished -- trinket.io/python/d11bf21615](https://trinket.io/python/d11bf21615)
 
