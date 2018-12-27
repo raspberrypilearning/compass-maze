@@ -37,21 +37,22 @@
 
 ## ऑनलाइन संसाधन
 
-इस प्रोजेक्ट को Sense HAT से किसी Raspberry Pi कंप्यूटर पर [ऑफ़लाइन भी पूरा किया जा सकता है](https://www.codeclubprojects.org/en-GB/resources/physical-sense-hat/)। आप इस प्रोजेक्ट के लिए 'प्रोजेक्ट सामग्री' लिंक पर क्लिक करके प्रोजेक्ट के संसाधनों तक पहुँच प्राप्त कर सकते हैं। इस लिंक में 'प्रोजेक्ट संसाधन' खंड है, जिसमें ऐसे संसाधन सम्मिलित हैं जिसकी बच्चों को इस प्रोजेक्ट को ऑफ़लाइन पूरा करने के लिए ज़रूरत होगी। Make sure that each child has access to a copy of these resources. This section includes the following files:
+इस प्रोजेक्ट को Sense HAT से किसी Raspberry Pi कंप्यूटर पर [ऑफ़लाइन भी पूरा किया जा सकता है](https://www.codeclubprojects.org/en-GB/resources/physical-sense-hat/)। आप इस प्रोजेक्ट के लिए 'प्रोजेक्ट सामग्री' लिंक पर क्लिक करके प्रोजेक्ट के संसाधनों तक पहुँच प्राप्त कर सकते हैं। इस लिंक में 'प्रोजेक्ट संसाधन' खंड है, जिसमें ऐसे संसाधन सम्मिलित हैं जिसकी बच्चों को इस प्रोजेक्ट को ऑफ़लाइन पूरा करने के लिए ज़रूरत होगी। सुनिश्चित करें कि प्रत्येक बच्चे को इन संसाधनों की प्रतिलिपि तक पहुँच प्राप्त होती है। इस खंड में निम्नलिखित फाइलें शामिल हैं:
 
 * compass-maze/main.py
 * compass-maze/maze.py
 
-You can also find a completed version of this project in the 'Volunteer Resources' section, which contains:
+आपको 'स्वयंसेवक संसाधन' खंड में इस प्रोजेक्ट का पूर्ण किया गया संस्करण भी मिल सकता है, जिसमें निम्न शामिल हैं:
 
 * compass-maze-finished/main.py
 * compass-maze-finished/maze.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(उपर्युक्त सभी संसाधन प्रोजेक्ट और स्वयंसेवक `.zip फ़ाइलों के रूप में भी डाउनलोड किए जा सकते हैं।)</p>
 
-## Learning Objectives
+<h2>Learning Objectives</h2>
 
-* How to use the Sense HAT magnetometer (`get_compass()`)
+<ul>
+<li>How to use the Sense HAT magnetometer (<code>get_compass()`)</li> </ul> 
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
