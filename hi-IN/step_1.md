@@ -27,7 +27,7 @@ In this project, children will learn how to use the Sense HAT magnetometer (comp
 
 ## ऑनलाइन संसाधन
 
-**This project uses Python 3.** We recommend using [Trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+**इस प्रोजेक्ट में Python 3 का उपयोग किया जाता है।** Python को ऑनलाइन लिखने के लिए हम [Trinket](https://trinket.io/) का उपयोग करने की सलाह देते हैं। This project contains the following Trinkets:
 
 * ['Compass Maze' Starter Trinket -- jumpto.cc/compass-go](http://jumpto.cc/compass-go)
 
