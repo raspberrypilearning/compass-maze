@@ -1,6 +1,6 @@
-## Finding the compass direction
+## कंपास की दिशा ढूँढना
 
-The Sense HAT contains a magnetometer that can be used to work out which direction is North.
+Sense HAT में एक मैग्नेटोमीटर होता है जिसका उपयोग यह पता लगाने के लिए किया जा सकता है कि उत्तर दिशा किस तरफ है।
 
 In the emulator North corresponds to the top of your screen. The Sense HAT reports a compass heading in degrees from North.
 
