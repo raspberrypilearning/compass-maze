@@ -2,7 +2,7 @@
 
 Now let's use the compass to navigate around a maze.
 
-The rooms and doors in the Maze are as shown in this map:
+भूलभुलैया में कमरे और दरवाजे इस नक्शे में दिखाए गए हैं:
 
 ![screenshot](images/compass-maze-map.png)
 
