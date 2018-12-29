@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Challenge: Reward the player
+## चुनौती: खिलाड़ी को पुरस्कृत करें
 
 Can you reward the player with a cool display on the Sense HAT when they manage to escape?
 
