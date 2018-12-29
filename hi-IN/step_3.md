@@ -1,4 +1,4 @@
-## Showing the compass direction
+## कंपास की दिशा दिखाना
 
 Next let's show the compass direction, N, E, S or W, on the Sense HAT screen.
 
@@ -42,7 +42,7 @@ The 'N' won't disappear, you need to add code for the other directions.
 
 + Now add the code for west. If it's not north, east or south then it must be west! You can just use an 'else'.
     
-    ![screenshot](images/compass-west-code.png)
+    ![स्क्रीनशॉट](images/compass-west-code.png)
 
 + Test your code by dragging the Sense HAT around.
     
