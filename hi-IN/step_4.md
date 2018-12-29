@@ -49,6 +49,6 @@ You start in the Blue room and need to find the Green room to escape.
 
 + When the player reaches the Green room they have managed to escape the maze. Let's turn the screen green when they win and end the game:
     
-    ![screenshot](images/compass-end.png)
+    ![स्क्रीनशॉट](images/compass-end.png)
     
     The `break` finished the loop to end the game.
