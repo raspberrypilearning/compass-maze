@@ -1,12 +1,12 @@
 ## Navigating the maze
 
-Now let's use the compass to navigate around a maze.
+आइए अब किसी भूलभुलैया के इर्द-गिर्द नेविगेट करने के लिए कंपास का उपयोग करें।
 
-भूलभुलैया में कमरे और दरवाजे इस नक्शे में दिखाए गए हैं:
+भूलभुलैया में कमरे और दरवाजे इस नक्शे में दिखाए गए अनुसार हैं:
 
 ![screenshot](images/compass-maze-map.png)
 
-You start in the Blue room and need to find the Green room to escape.
+आप नीले कमरे में शुरू करते हैं और वहाँ से निकलने के लिए आपको हरा कमरा ढूँढने की ज़रूरत है।
 
 + The code for creating a simple adventure game (like the one in the RPG project) is in maze.py in your project.
     
