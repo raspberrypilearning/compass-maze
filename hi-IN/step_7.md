@@ -2,13 +2,13 @@
 
 ## चुनौती: अपनी खुद की भूलभुलैया बनाएँ
 
-Create your own colourful maze and get a friend to try and find their way out using the Sense HAT compass.
+अपनी खुद की रंगीन भूलभुलैया बनाएँऔर किसी दोस्त को लाएँ जो Sense HAT कंपास का उपयोग करके अपना बाहर निकलने का रास्ता खोजने की कोशिश करे।
 
-You'll need to:
+आपको इसकी आवश्यकता होगी:
 
-+ Edit the rooms dictionary in maze.py
-+ Edit the colours dictionary in maze.py
++ Maze.py में कमरों के शब्दकोश को संपादित करना
++ Maze.py में रंगों के शब्दकोश को संपादित करना
 
-It might help to draw your map on paper first.
+नक्शे को पहले कागज़ पर बनाने से आपको मदद मिल सकती है।
 
 \--- /challenge \---
