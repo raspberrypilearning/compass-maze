@@ -1,6 +1,6 @@
 ## कंपास की दिशा दिखाना
 
-Next let's show the compass direction, N, E, S or W, on the Sense HAT screen.
+इसके बाद आइए हम आपको Sense HAT स्क्रीन पर, कंपास की N, E, S या W दिशा दिखाएँ।
 
 If the compass heading in degrees is between 315 and 45 then the Sense HAT is pointing North and you want to display an 'N'. If the heading is between 45 and 315 then you want to display an 'E' and so on.
 
