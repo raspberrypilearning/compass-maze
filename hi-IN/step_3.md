@@ -6,23 +6,23 @@
 
 ![screenshot](images/compass-quadrants.png)
 
-+ First let's show an N on the screen when the Sense HAT is facing north.
++ तो आइए पहले हम स्क्रीन पर N दिखाएँ जब Sense HAT का मुँह उत्तर की ओर हो।
     
-    Remember that when the Sense HAT is facing North the USB ports are at the top:
+    याद रखें कि जब जब Sense HAT का मुँह उत्तर की ओर होता है तो यूएसबी पोर्ट शीर्ष पर होते हैं:
     
     ![screenshot](images/compass-north.png)
 
-+ Change your code to display an 'N' when the compass heading is between 45 and 135:
++ कंपास हैडिंग जब 45 और 135 के बीच होने तो 'N' प्रदर्शित करने के लिए अपना कोड बदलें:
     
     ![screenshot](images/compass-north-code.png)
 
-+ Drag the Sense HAT to North (USB ports at the top of the screen) to test your compass.
++ अपने कंपास का परीक्षण करने के लिए Sense Hat को उत्तर (यूएसबी पोर्ट स्क्रीन के शीर्ष पर) की ओर खींचें।
     
     ![screenshot](images/compass-north-test.png)
 
-The 'N' won't disappear, you need to add code for the other directions.
+'N' गायब नहीं होगा, अन्य दिशाओं के लिए आपको कोड जोड़ने की आवश्यकता होगी।
 
-+ Hmm, the 'N' is sideways. It would make more sense to have the letter facing in the same direction as the USB ports.
++ हम्म, 'N' किनारे पर है। It would make more sense to have the letter facing in the same direction as the USB ports.
     
     Add the following code to rotate the Sense HAT display.
     
