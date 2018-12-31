@@ -6,7 +6,7 @@
 
 ![screenshot](images/compass-maze-map.png)
 
-आप नीले कमरे में शुरू करते हैं और वहाँ से निकलने के लिए आपको हरा कमरा ढूँढने की ज़रूरत है।
+आप नीले कमरे में शुरू करते हैं और वहाँ से निकलने के लिए आपको हरा कमरा ढूँढना होता है।
 
 + The code for creating a simple adventure game (like the one in the RPG project) is in maze.py in your project.
     
