@@ -10,18 +10,18 @@
     
     `dir[0].upper()` किसी स्ट्रिंग के पहले अक्षर को लेता है और उसे एक बड़े अक्षर में बदल देता है जिससे "उत्तर" के लिए आपको 'N' मिलता है।
     
-    Change your compass code to use `show_letter` once:
+    `show_letter` (अक्षर दिखाएँ) का एक बार उपयोग करने के लिए अपना कंपास कोड बदलें:
     
-    ![screenshot](images/compass-upper.png)
+    ![स्क्रीनशॉट](images/compass-upper.png)
 
-+ आपका कंपास कोड अब इस प्रकार दिखना चाहिए:
++ आपका कंपास कोड इस प्रकार दिखना चाहिए:
     
-    ![screenshot](images/compass-upper-done.png)
+    ![स्क्रीनशॉट](images/compass-upper-done.png)
 
-+ Now use the colour of the current room when you display the compass letter:
++ जब आप कंपास अक्षर को प्रदर्शित करते हैं तो अब वर्तमान कमरे के रंग का उपयोग करें:
     
-    ![screenshot](images/compass-colour.png)
+    ![स्क्रीनशॉट](images/compass-colour.png)
 
-+ Test your code and you should find that you can tell which room you're in from the colour of the letter.
++ अपने कोड का परीक्षण करें और आपको यह पता चलना चाहिए कि आप अक्षर के रंग को देखकर यह बता सकते हैं कि आप किस कमरे में हैं।
     
     ![स्क्रीनशॉट](images/compass-colour-east.png)
