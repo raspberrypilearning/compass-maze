@@ -31,7 +31,7 @@
 
 + भूलभुलैया के इर्द-गिर्द जाने के लिए आप जिस दिशा में जाना चाहते हैं उसके साथ आपको `maze.walk(dir)` का उपयोग करना होगा।
     
-    Put the current compass direction in a `dir` variable, you'll need to set it for each compass direction:
+    वर्तमान कंपास दिशा को `dir` वेरिएबल में रखें, आपको इसे प्रत्येक कंपास दिशा के लिए सेट करना होगा:
     
     ![screenshot](images/compass-dir.png)
 
