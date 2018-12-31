@@ -6,9 +6,9 @@
 
 उदाहरण के लिए, यदि आप नीले कमरे में हैं और आपका मुँह दक्षिण की ओर है तो आपको नीला अक्षर S दिखाई देना चाहिए।
 
-+ आपको `sense.show_letter` को कोई `text-colour` (पाठ-रंग) प्रदान करना होगा। Rather than do that four times, change the code to use the dir variable to work out the letter to show on the Sense HAT.
++ आपको `sense.show_letter` को कोई `text-colour` (पाठ-रंग) प्रदान करना होगा। इसे चार बार करने के बजाय, Sense HAT पर दिखाने के लिए अक्षर का पता लगाने के लिए यह पता लगाने के लिए dir variable (निर्देशिका वेरिएबल) का उपयोग करने के लिए कोड को बदलें।
     
-    `dir[0].upper()` takes the first letter of a string and turns it into a capital so "north" gives you 'N'.
+    `dir[0].upper()` किसी स्ट्रिंग के पहले अक्षर को लेता है और उसे एक बड़े अक्षर में बदल देता है जिससे "उत्तर" के लिए आपको 'N' मिलता है।
     
     Change your compass code to use `show_letter` once:
     
