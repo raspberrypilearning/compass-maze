@@ -35,13 +35,13 @@
     
     ![screenshot](images/compass-dir.png)
 
-+ Now let's have the player move in the direction the Sense HAT compass is pointing when they press the middle button on the joystick.
++ आइए अब हम खिलाड़ी को उस दिशा में चलने दें, हैं जिस दिशा में Sense HAT कंपास तब इंगित करता है जब वे जॉयस्टिक पर बीच का बटन दबाते हैं।
     
     ![screenshot](images/compass-joystick.png)
 
-+ Try moving around the maze using the compass.
++ कंपास का उपयोग करके भूलभुलैया के इर्द-गिर्द घूमने का प्रयास करें।
     
-    To press the joystick you need to click in the Sense HAT window and then press Enter (Return) on the keyboard.
+    जॉयस्टिक को दबाने के लिए आपको Sense HAT विंडो में क्लिक करना होगा और फिर कीबोर्ड पर एंटर (रिटर्न) को दबाना होगा।
 
 + Test your project by moving the Sense HAT to the direction you want to move in and then tapping Enter on the keyboard.
     
