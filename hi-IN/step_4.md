@@ -4,7 +4,7 @@
 
 भूलभुलैया में कमरे और दरवाजे इस नक्शे में दिखाए गए अनुसार हैं:
 
-![screenshot](images/compass-maze-map.png)
+![स्क्रीनशॉट](images/compass-maze-map.png)
 
 आप नीले कमरे में शुरू करते हैं और वहाँ से निकलने के लिए आपको हरा कमरा ढूँढना होता है।
 
@@ -19,36 +19,36 @@
     
     आपको `maze.py` आयात करने की आवश्यकता होगी:
     
-    ![screenshot](images/compass-import.png)
+    ![स्क्रीनशॉट](images/compass-import.png)
 
 + गेम `maze.start()` से शुरू करें:
     
-    ![screenshot](images/compass-start.png)
+    ![स्क्रीनशॉट](images/compass-start.png)
 
 + गेम के निर्देश आपको Sense HAT के नीचे दिखाई देंगे।
     
-    ![screenshot](images/compass-start-test.png)
+    ![स्क्रीनशॉट](images/compass-start-test.png)
 
 + भूलभुलैया के इर्द-गिर्द जाने के लिए आप जिस दिशा में जाना चाहते हैं उसके साथ आपको `maze.walk(dir)` का उपयोग करना होगा।
     
     वर्तमान कंपास दिशा को `dir` वेरिएबल में रखें, आपको इसे प्रत्येक कंपास दिशा के लिए सेट करना होगा:
     
-    ![screenshot](images/compass-dir.png)
+    ![स्क्रीनशॉट](images/compass-dir.png)
 
 + आइए अब हम खिलाड़ी को उस दिशा में चलने दें, हैं जिस दिशा में Sense HAT कंपास तब इंगित करता है जब वे जॉयस्टिक पर बीच का बटन दबाते हैं।
     
-    ![screenshot](images/compass-joystick.png)
+    ![स्क्रीनशॉट](images/compass-joystick.png)
 
 + कंपास का उपयोग करके भूलभुलैया के इर्द-गिर्द घूमने का प्रयास करें।
     
     जॉयस्टिक को दबाने के लिए आपको Sense HAT विंडो में क्लिक करना होगा और फिर कीबोर्ड पर एंटर (रिटर्न) को दबाना होगा।
 
-+ Test your project by moving the Sense HAT to the direction you want to move in and then tapping Enter on the keyboard.
++ अपने प्रोजेक्ट का परीक्षण करने के लिए Sense HAT को उस दिशा में ले जाएँ जहाँ आप जाना चाहते हैं और फिर कीबोर्ड पर Enter टैप करें।
     
-    Look at the map if you need help to find the Green room.
+    यदि आपको हरे कमरे को खोजने में मदद चाहिए हो तो मानचित्र देखें।
 
-+ When the player reaches the Green room they have managed to escape the maze. Let's turn the screen green when they win and end the game:
++ जब खिलाड़ी हरे कमरे में पहुँच जाता है तो इसका मतलब है कि वे भूलभुलैया से निकलने में कामयाब हो गए हैं। जब वे जीत जाते हैं तो हमें स्क्रीन को हरा कर देना चाहिए और गेम को समाप्त कर देना चाहिए:
     
     ![स्क्रीनशॉट](images/compass-end.png)
     
-    The `break` finished the loop to end the game.
+    गेम को समाप्त करने के लिए `break` ने लूप को समाप्त किया।
