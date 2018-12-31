@@ -25,11 +25,11 @@
     
     ![screenshot](images/compass-start.png)
 
-+ You'll see the game instructions appear below the Sense HAT.
++ गेम के निर्देश आपको Sense HAT के नीचे दिखाई देंगे।
     
     ![screenshot](images/compass-start-test.png)
 
-+ To move around the maze you need to use `maze.walk(dir)` with the direction you want to move in.
++ भूलभुलैया के इर्द-गिर्द जाने के लिए आप जिस दिशा में जाना चाहते हैं उसके साथ आपको `maze.walk(dir)` का उपयोग करना होगा।
     
     Put the current compass direction in a `dir` variable, you'll need to set it for each compass direction:
     
