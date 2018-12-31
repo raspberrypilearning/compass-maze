@@ -1,12 +1,12 @@
 ## रंग जोड़ें
 
-It would be better if you could tell which room you were in just by looking at the Sense HAT.
+बेहतर होगा कि यदि आप केवल Sense HAT को देखकर यह बता सकें कि आप किस कमरे में थे।
 
-Let's display the compass letter in the colour of the current room.
+आइए हम वर्तमान कमरे के रंग में कंपास अक्षर को प्रदर्शित करें।
 
-For example, if you're in the Blue room and facing South you should see a blue letter S.
+उदाहरण के लिए, यदि आप नीले कमरे में हैं और आपका मुँह दक्षिण की ओर है तो आपको नीला अक्षर S दिखाई देना चाहिए।
 
-+ You'll need to provide a `text-colour` to `sense.show_letter`. Rather than do that four times, change the code to use the dir variable to work out the letter to show on the Sense HAT.
++ आपको `sense.show_letter` को कोई `text-colour` (पाठ-रंग) प्रदान करना होगा। Rather than do that four times, change the code to use the dir variable to work out the letter to show on the Sense HAT.
     
     `dir[0].upper()` takes the first letter of a string and turns it into a capital so "north" gives you 'N'.
     
