@@ -8,20 +8,20 @@
 
 आप नीले कमरे में शुरू करते हैं और वहाँ से निकलने के लिए आपको हरा कमरा ढूँढना होता है।
 
-+ The code for creating a simple adventure game (like the one in the RPG project) is in maze.py in your project.
++ एक साधारण साहसिक गेम (जैसी RPG प्रोजेक्ट में होती है) बनाने के लिए कोड आपकी प्रोजेक्ट में maze.py में है।
     
-    `maze.py` includes some functions to help you write a maze game:
+    `maze.py` में कुछ फंक्शन होते हैं जो आपको भूलभुलैया गेम लिखने में मदद करते हैं:
     
-    + `maze.start()` - starts the game
-    + `maze.escaped()` - tells you whether the player has escaped the maze
-    + `maze.walk(dir)` - moves the player in the given direction
-    + `maze.getColour()` - gives you the colour of the current room
+    + `maze.start()` - गेम को शुरू करता है
+    + `maze.escaped()` - आपको बताता है कि खिलाड़ी भूलभुलैया से निकल पाया है या नहीं
+    + `maze.walk(dir)` - खिलाड़ी को दी गई दिशा में ले जाता है
+    + `maze.getColour()` - आपको वर्तमान कमरे का रंग देता है
     
-    You'll need to import `maze.py`:
+    आपको `maze.py` आयात करने की आवश्यकता होगी:
     
     ![screenshot](images/compass-import.png)
 
-+ Start the game with `maze.start()`:
++ गेम `maze.start()` से शुरू करें:
     
     ![screenshot](images/compass-start.png)
 
