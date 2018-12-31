@@ -6,6 +6,6 @@
 
 आपको हाइलाइट किए गए कोड को अपने कोड से बदलने की आवश्यकता होगी:
 
-![screenshot](images/compass-reward.png)
+![स्क्रीनशॉट](images/compass-reward.png)
 
 \--- /challenge \---
