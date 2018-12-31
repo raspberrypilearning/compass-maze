@@ -1,4 +1,4 @@
-## Add colours
+## रंग जोड़ें
 
 It would be better if you could tell which room you were in just by looking at the Sense HAT.
 
