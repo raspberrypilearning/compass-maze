@@ -1,4 +1,5 @@
 --- challenge ---
+
 ## Challenge: Create your own maze
 
 Create your own colourful maze and get a friend to try and find their way out using the Sense HAT compass.
