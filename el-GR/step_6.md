@@ -8,4 +8,4 @@ You'll need to replace the highlighted code with your own code:
 
 ![screenshot](images/compass-reward.png)
 
-\--- / πρόκληση \---
+\--- /challenge \---
