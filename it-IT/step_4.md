@@ -19,7 +19,7 @@ You start in the Blue room and need to find the Green room to escape.
     
     You'll need to import `maze.py`:
     
-    ![schermata](images/compass-import.png)
+    ![screenshot](images/compass-import.png)
 
 + Start the game with `maze.start()`:
     
@@ -33,7 +33,7 @@ You start in the Blue room and need to find the Green room to escape.
     
     Put the current compass direction in a `dir` variable, you'll need to set it for each compass direction:
     
-    ![schermata](images/compass-dir.png)
+    ![screenshot](images/compass-dir.png)
 
 + Now let's have the player move in the direction the Sense HAT compass is pointing when they press the middle button on the joystick.
     
@@ -49,6 +49,6 @@ You start in the Blue room and need to find the Green room to escape.
 
 + When the player reaches the Green room they have managed to escape the maze. Let's turn the screen green when they win and end the game:
     
-    ![schermata](images/compass-end.png)
+    ![screenshot](images/compass-end.png)
     
     The `break` finished the loop to end the game.
