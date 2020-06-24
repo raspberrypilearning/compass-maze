@@ -1,14 +1,14 @@
-\--- challange \---
+\--- challenge \---
 
-## Challenge: Create your own maze
+## Défi : Crée ton propre labyrinthe
 
-Create your own colourful maze and get a friend to try and find their way out using the Sense HAT compass.
+Crée ton propre labyrinthe coloré et demande à un ami d'essayer de trouver son chemin à l'aide de la boussole Sense HAT.
 
-You'll need to:
+Tu auras besoin de :
 
-+ Edit the rooms dictionary in maze.py
-+ Edit the colours dictionary in maze.py
++ Modifier le dictionnaire des salles dans maze.py
++ Modifier le dictionnaire des couleurs dans maze.py
 
-It might help to draw your map on paper first.
+Il peut être utile de dessiner d'abord ta carte sur papier.
 
 \--- /challenge \---
