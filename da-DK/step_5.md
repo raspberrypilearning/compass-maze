@@ -12,16 +12,16 @@ For example, if you're in the Blue room and facing South you should see a blue l
     
     Change your compass code to use `show_letter` once:
     
-    ![skærmbillede](images/compass-upper.png)
+    ![screenshot](images/compass-upper.png)
 
 + Your compass code should look like this:
     
-    ![skærmbillede](images/compass-upper-done.png)
+    ![screenshot](images/compass-upper-done.png)
 
 + Now use the colour of the current room when you display the compass letter:
     
-    ![skærmbillede](images/compass-colour.png)
+    ![screenshot](images/compass-colour.png)
 
 + Test your code and you should find that you can tell which room you're in from the colour of the letter.
     
-    ![skærmbillede](images/compass-colour-east.png)
+    ![screenshot](images/compass-colour-east.png)
