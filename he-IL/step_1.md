@@ -1,4 +1,4 @@
-## מבוא:
+## Introduction:
 
 In this project you will use the the Sense HAT as a compass to navigate out of a maze of colourful rooms. You will need to point the Sense HAT in the direction you want to move and then press the button in the middle of the joystick to make a move.
 
@@ -13,19 +13,19 @@ Your current compass direction will appear on the Sense HAT display (N, S, E or 
 
 When you are facing in the direction you want to go, press the middle button on the joystick by pressing enter on the keyboard.
 
-### מידע נוסף למורי המועדון
+### Additional information for club leaders
 
-אם אתה צריך להדפיס את הפרויקט הזה, אנא השתמש ב [ גרסה ידידותית למדפסת ](https://projects.raspberrypi.org/en/projects/compass-maze/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/compass-maze/print).
 
 ## \--- collapse \---
 
 ## title: Club leader notes
 
-## מבוא:
+## Introduction:
 
 In this project, children will learn how to use the Sense HAT magnetometer (compass), and use the compass direction to navigate through a maze.
 
-## משאבים מקוונים
+## Online Resources
 
 **This project uses Python 3.** We recommend using [Trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
@@ -49,15 +49,15 @@ You can also find a completed version of this project in the 'Volunteer Resource
 
 (All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## מטרות למידה
+## Learning Objectives
 
 * How to use the Sense HAT magnetometer (`get_compass()`)
 
-פרויקט זה מכסה את הנושאים הבאים של [ תוכנית הלימודים הדיגיטלית של רספברי פי ](http://rpf.io/curriculum)
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [שלוב מבני תוכנה כדי לפתור בעיה.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## אתגרים
+## Challenges
 
 * "Reward the player" - Displaying n image on the LEDs at the end of the game;
 * "Create your own maze" - edit the maze dictionary to create their own maze.
@@ -75,7 +75,7 @@ You can also find a completed version of this project in the 'Volunteer Resource
 * [Offline starter Python file](resources/compass-maze-main.py)
 * [Offline starter Python file containing the maze code](resources/compass-maze-maze.py)
 
-## משאבים למורה המועדון
+## Club leader resources
 
 * [.zip file containing all completed project resources](resources/compass-maze-volunteer-resources.zip)
 * [Online completed Trinket Compass Maze project](https://trinket.io/python/0c8cdacd70)
