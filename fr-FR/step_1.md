@@ -1,21 +1,21 @@
 ## Introduction :
 
-In this project you will use the the Sense HAT as a compass to navigate out of a maze of colourful rooms. You will need to point the Sense HAT in the direction you want to move and then press the button in the middle of the joystick to make a move.
+Dans ce projet, tu utiliseras le Sense HAT comme une boussole pour naviguer dans un dédale de pièces colorées. Tu devras pointer le « Sense HAT » dans la direction dans laquelle tu souhaites te déplacer, puis appuyer sur le bouton au milieu du joystick pour faire un mouvement.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/0c8cdacd70?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark">
 </iframe> <img src="images/compass-final.png" />
 </div>
 
-To play the game press Run and read the text that appears in the trinket output window.
+Pour jouer au jeu, appuie sur « Run » et lis le texte qui apparaît dans la fenêtre de sortie de la machine.
 
-Your current compass direction will appear on the Sense HAT display (N, S, E or W.) You can change direction by moving the Sense HAT in the emulator.
+La direction actuelle de ton compas apparaîtra sur l'affichage du « Sense HAT » (N, S, E ou O.) Tu peux changer de direction en déplaçant le « Sense HAT » dans l'émulateur.
 
-When you are facing in the direction you want to go, press the middle button on the joystick by pressing enter on the keyboard.
+Lorsque tu fais face à la direction que tu souhaites suivre, appuies sur le bouton central du joystick en appuyant sur « Entrée » sur le clavier.
 
 ### Informations complémentaires pour les responsables de club
 
-Si tu as besoin d'imprimer ce projet, merci d'utiliser la [Version imprimable](https://projects.raspberrypi.org/en/projects/compass-maze/print).
+Si vous avez besoin d'imprimer ce projet, merci d'utiliser la [Version imprimable](https://projects.raspberrypi.org/en/projects/compass-maze/print).
 
 ## \--- collapse \---
 
@@ -23,26 +23,26 @@ Si tu as besoin d'imprimer ce projet, merci d'utiliser la [Version imprimable](h
 
 ## Introduction :
 
-In this project, children will learn how to use the Sense HAT magnetometer (compass), and use the compass direction to navigate through a maze.
+Dans ce projet, les enfants apprendront à utiliser le magnétomètre du « Sense HAT » (compas) et à utiliser la direction indiquée par la boussole pour naviguer dans un labyrinthe.
 
-## Ressources en-ligne
+## Ressources en ligne
 
-**This project uses Python 3.** We recommend using [Trinket](https://trinket.io/) to write Python online. Ce projet contient les Trinkets suivants :
+**Ce projet utilise Python 3.** Nous vous recommandons d'utiliser [Trinket](https://trinket.io/) pour écrire du code Python en ligne. Ce projet contient les Trinkets suivants :
 
-* ['Compass Maze' Starter Trinket -- jumpto.cc/compass-go](http://jumpto.cc/compass-go)
+* ['Un compas dans le labyrinthe' Début -- jumpto.cc/compass-go](http://jumpto.cc/compass-go)
 
-Il existe aussi ce trinket qui contient le projet completé:
+Il existe aussi ce trinket qui contient le projet terminé :
 
-* [‘Compass Maze’ Finished -- trinket.io/python/d11bf21615](https://trinket.io/python/d11bf21615)
+* [‘Un compas dans le labyrinthe’ Terminé -- trinket.io/python/d11bf21615](https://trinket.io/python/d11bf21615)
 
-## Ressources hors-ligne
+## Ressources hors ligne
 
-This project can also be [completed offline](https://www.codeclubprojects.org/en-GB/resources/physical-sense-hat/) on a Raspberry Pi computer with a Sense HAT. Vous pouvez accéder aux ressources du projet en cliquant sur le lien "Matériaux du projet". Ce lien contient une section "Ressources du projet" qui inclut les ressources dont les enfants auront besoin pour compléter le projet hors-ligne. Assurez-vous que les enfants ont accès à une copie de ces ressources. Cette section inclut les fichiers suivants :
+Ce projet peut également être [terminé hors-ligne](https://www.codeclubprojects.org/en-GB/resources/physical-sense-hat/) sur un ordinateur Raspberry Pi avec un Sense HAT. Vous pouvez accéder aux ressources du projet en cliquant sur le lien « Matériel pour projet ». Ce lien contient une section « Ressources du projet » qui inclut les ressources dont les enfants auront besoin pour compléter le projet hors ligne. Assurez-vous que les enfants ont accès à une copie de ces ressources. Cette section inclut les fichiers suivants :
 
 * compass-maze/main.py
 * compass-maze/maze.py
 
-Vous pouvez aussi trouver une version complétée du projet dans la section "Ressources du bénévole" qui contient :
+Vous pouvez aussi trouver une version terminée du projet dans la section « Ressources du bénévole » qui contient :
 
 * compass-maze-finished/main.py
 * compass-maze-finished/maze.py
@@ -51,7 +51,7 @@ Vous pouvez aussi trouver une version complétée du projet dans la section "Res
 
 ## Objectifs d'apprentissage
 
-* How to use the Sense HAT magnetometer (`get_compass()`)
+* Comment utiliser le magnétomètre du « Sense HAT » (` get_compass () ` )
 
 Ce projet couvre les éléments suivants du [Programme de Créativité Numérique de Raspberry Pi](http://rpf.io/curriculum):
 
@@ -59,8 +59,8 @@ Ce projet couvre les éléments suivants du [Programme de Créativité Numériqu
 
 ## Défis
 
-* "Reward the player" - Displaying n image on the LEDs at the end of the game;
-* "Create your own maze" - edit the maze dictionary to create their own maze.
+* « Récompense le joueur » - affichage d'une image sur les LED à la fin de la partie,;
+* « Crée ton propre labyrinthe » - éditer le dictionnaire de labyrinthe pour créer leur propre labyrinthe.
 
 \--- /collapse \---
 
@@ -71,14 +71,14 @@ Ce projet couvre les éléments suivants du [Programme de Créativité Numériqu
 ## Ressources du projet
 
 * [Fichier .zip contenant toutes les ressources du projet](resources/compass-maze-project-resources.zip)
-* [Compass Maze starter project](http://jumpto.cc/compass-go)
-* [Offline starter Python file](resources/compass-maze-main.py)
-* [Offline starter Python file containing the maze code](resources/compass-maze-maze.py)
+* [Démarrage du projet « Une boussole dans le labyrinthe »](http://jumpto.cc/compass-go)
+* [Fichier Python de démarrage hors ligne](resources/compass-maze-main.py)
+* [Fichier Python de démarrage hors ligne contenant le code de labyrinthe](resources/compass-maze-maze.py)
 
 ## Ressources pour le responsable de club
 
 * [Fichier .zip contenant toutes les ressources du projet](resources/compass-maze-volunteer-resources.zip)
-* [Online completed Trinket Compass Maze project](https://trinket.io/python/0c8cdacd70)
+* [Projet Trinket « Une boussole dans le labyrinthe » en ligne terminé](https://trinket.io/python/0c8cdacd70)
 * [compass-maze-finished/main.py](resources/compass-maze-finished-main.py)
 * [compass-maze-finished/maze.py](resources/compass-maze-finished-maze.py)
 
