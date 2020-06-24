@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: Reward the player
+## التحدي: مكافأة اللاعب
 
-Can you reward the player with a cool display on the Sense HAT when they manage to escape?
+هل يمكنك مكافأة اللاعب بعرض رائع على لوحة Sense HAT عندما يتمكن من الخروج؟
 
-You'll need to replace the highlighted code with your own code:
+ستحتاج إلى استبدال التعليمة البرمجية المظلله باللون الازرق الفاتح بالتعليمة البرمجية الخاص بك:
 
 ![لقطة الشاشة](images/compass-reward.png)
 
