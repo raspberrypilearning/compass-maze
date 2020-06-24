@@ -1,27 +1,27 @@
-## Adăugați culori
+## Add colours
 
-Ar fi mai bine să-ți dai seama în ce cameră te-ai afla, doar uitându-te la Sense HAT.
+It would be better if you could tell which room you were in just by looking at the Sense HAT.
 
-Să afișăm litera busolă în culoarea camerei curente.
+Let's display the compass letter in the colour of the current room.
 
-De exemplu, dacă vă aflați în camera albastră și orientată spre sud, ar trebui să vedeți o literă albastră S.
+For example, if you're in the Blue room and facing South you should see a blue letter S.
 
-+ Va trebui să furnizeze un `text de culoare de` la cu `sense.show_letter`. Mai degrabă decât de patru ori, schimbați codul pentru a utiliza variabila dir pentru a elabora litera care să apară pe Sense HAT.
++ You'll need to provide a `text-colour` to `sense.show_letter`. Rather than do that four times, change the code to use the dir variable to work out the letter to show on the Sense HAT.
     
-    `dir[0].upper ()` primește prima literă a unui șir și o transformă într-o capitală, astfel că "nord" vă dă "N".
+    `dir[0].upper()` takes the first letter of a string and turns it into a capital so "north" gives you 'N'.
     
-    Schimbați codul de busolă pentru a utiliza `show_letter` dată:
+    Change your compass code to use `show_letter` once:
     
-    ![captură de ecran](images/compass-upper.png)
+    ![screenshot](images/compass-upper.png)
 
-+ Codul dvs. de busolă ar trebui să arate astfel:
++ Your compass code should look like this:
     
-    ![captură de ecran](images/compass-upper-done.png)
+    ![screenshot](images/compass-upper-done.png)
 
-+ Acum folosiți culoarea camerei curente când afișați litera bustei:
++ Now use the colour of the current room when you display the compass letter:
     
-    ![captură de ecran](images/compass-colour.png)
+    ![screenshot](images/compass-colour.png)
 
-+ Testați-vă codul și ar trebui să găsiți că puteți spune care este camera din culoarea literei.
++ Test your code and you should find that you can tell which room you're in from the colour of the letter.
     
-    ![captură de ecran](images/compass-colour-east.png)
+    ![screenshot](images/compass-colour-east.png)
