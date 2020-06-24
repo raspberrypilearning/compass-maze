@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Provocare: recompensa jucătorul
+## Challenge: Reward the player
 
-Puteți recompensa jucătorul cu un afișaj răcoros pe Sense HAT când reușesc să scape?
+Can you reward the player with a cool display on the Sense HAT when they manage to escape?
 
-Va trebui să înlocuiți codul evidențiat cu propriul cod:
+You'll need to replace the highlighted code with your own code:
 
-![captură de ecran](images/compass-reward.png)
+![screenshot](images/compass-reward.png)
 
 \--- /challenge \---
