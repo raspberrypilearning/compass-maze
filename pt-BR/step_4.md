@@ -23,11 +23,11 @@ You start in the Blue room and need to find the Green room to escape.
 
 + Start the game with `maze.start()`:
     
-    ![captura de tela](images/compass-start.png)
+    ![screenshot](images/compass-start.png)
 
 + You'll see the game instructions appear below the Sense HAT.
     
-    ![captura de tela](images/compass-start-test.png)
+    ![screenshot](images/compass-start-test.png)
 
 + To move around the maze you need to use `maze.walk(dir)` with the direction you want to move in.
     
@@ -37,7 +37,7 @@ You start in the Blue room and need to find the Green room to escape.
 
 + Now let's have the player move in the direction the Sense HAT compass is pointing when they press the middle button on the joystick.
     
-    ![captura](images/compass-joystick.png)
+    ![screenshot](images/compass-joystick.png)
 
 + Try moving around the maze using the compass.
     
