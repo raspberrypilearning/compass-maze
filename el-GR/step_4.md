@@ -4,7 +4,7 @@ Now let's use the compass to navigate around a maze.
 
 The rooms and doors in the Maze are as shown in this map:
 
-![screenshot (στιγμιότυπο οθόνης)](images/compass-maze-map.png)
+![screenshot](images/compass-maze-map.png)
 
 You start in the Blue room and need to find the Green room to escape.
 
