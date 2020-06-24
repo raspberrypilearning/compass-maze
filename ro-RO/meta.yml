@@ -1,33 +1,33 @@
 ---
 hero_image: images/compass-maze.png
-theme: albastru
+theme: blue
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Compasul labirintului
-description: Folosiți Sense HAT ca o busolă și navigați dintr-un labirint.
+title: Compass Maze
+description: Use the Sense HAT as a compass and navigate out of a maze.
 original_url: https://codeclubprojects.org/en-GB/sense-hat/compass-maze
-interests: jocuri
-technologies: sens pălărie
-site_areas: proiecte
-hardware: sens pălărie
+interests: games
+technologies: sense-hat
+site_areas: projects
+hardware: sense-hat
 software: ''
 version: 3
-last_tested: 01-01-2017
+last_tested: 2017-01-01
 steps:
   - 
     title: 'Introduction'
   - 
-    title: Găsirea direcției busolei
+    title: Finding the compass direction
   - 
-    title: Se afișează direcția busolă
+    title: Showing the compass direction
   - 
-    title: Navigarea în labirint
+    title: Navigating the maze
   - 
-    title: Adăugați culori
+    title: Add colours
   - 
-    title: 'Provocare: recompensa jucătorul'
+    title: 'Challenge: Reward the player'
   - 
-    title: 'Provocare: creați propriul labirint'
+    title: 'Challenge: Create your own maze'
