@@ -6,17 +6,17 @@ In the emulator North corresponds to the top of your screen. The Sense HAT repor
 
 Here's a reminder of the points of a compass:
 
-![zrzut ekranu](images/compass-nsew.png)
+![screenshot](images/compass-nsew.png)
 
 + Open the Compass Maze Starter Trinket: <a href="http://jumpto.cc/compass-go" target="_blank">jumpto.cc/compass-go</a>.
 
 + Let's find out which direction the Sense HAT is pointing in. Add the following code to the bottom of `main.py`:
     
-    ![zrzut ekranu](images/compass-get.png)
+    ![screenshot](images/compass-get.png)
 
 + Run your code to see the compass heading - how many degrees you are from facing north.
     
-    ![zrzut ekranu](images/compass-east.png)
+    ![screenshot](images/compass-east.png)
     
     In its starting position the Sense HAT is facing east and you should see values of about 90 degrees.
     
