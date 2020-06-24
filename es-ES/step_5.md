@@ -12,11 +12,11 @@ For example, if you're in the Blue room and facing South you should see a blue l
     
     Change your compass code to use `show_letter` once:
     
-    ![captura de pantalla](images/compass-upper.png)
+    ![screenshot](images/compass-upper.png)
 
 + Your compass code should look like this:
     
-    ![captura de pantalla](images/compass-upper-done.png)
+    ![screenshot](images/compass-upper-done.png)
 
 + Now use the colour of the current room when you display the compass letter:
     
