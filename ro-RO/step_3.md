@@ -1,49 +1,49 @@
-## Se afișează direcția busolă
+## Showing the compass direction
 
-Înainte să arătăm direcția busolă, N, E, S sau W, pe ecranul Sense HAT.
+Next let's show the compass direction, N, E, S or W, on the Sense HAT screen.
 
-Dacă titlul busolei în grade este între 315 și 45, atunci Sense HAT indică spre nord și doriți să afișați un "N". Dacă titlul este între 45 și 315, atunci doriți să afișați un "E" și așa mai departe.
+If the compass heading in degrees is between 315 and 45 then the Sense HAT is pointing North and you want to display an 'N'. If the heading is between 45 and 315 then you want to display an 'E' and so on.
 
-![captură de ecran](images/compass-quadrants.png)
+![screenshot](images/compass-quadrants.png)
 
-+ Mai întâi să arătăm un N pe ecran când Sense HAT se îndreaptă spre nord.
++ First let's show an N on the screen when the Sense HAT is facing north.
     
-    Rețineți că atunci când Sense HAT se îndreaptă spre nord, porturile USB se află în partea de sus:
+    Remember that when the Sense HAT is facing North the USB ports are at the top:
     
-    ![captură de ecran](images/compass-north.png)
+    ![screenshot](images/compass-north.png)
 
-+ Modificați codul pentru a afișa un "N" când titlul compasului este între 45 și 135:
++ Change your code to display an 'N' when the compass heading is between 45 and 135:
     
-    ![captură de ecran](images/compass-north-code.png)
+    ![screenshot](images/compass-north-code.png)
 
-+ Trageți Sense HAT spre nord (porturile USB din partea superioară a ecranului) pentru a testa busola.
++ Drag the Sense HAT to North (USB ports at the top of the screen) to test your compass.
     
-    ![captură de ecran](images/compass-north-test.png)
+    ![screenshot](images/compass-north-test.png)
 
-"N" nu va dispărea, trebuie să adăugați cod pentru celelalte direcții.
+The 'N' won't disappear, you need to add code for the other directions.
 
-+ Hmm, "N" este în lateral. Ar fi mai logic să aveți scrisoarea îndreptată în aceeași direcție ca porturile USB.
++ Hmm, the 'N' is sideways. It would make more sense to have the letter facing in the same direction as the USB ports.
     
-    Adăugați următorul cod pentru a roti ecranul Sense HAT.
+    Add the following code to rotate the Sense HAT display.
     
-    ![captură de ecran](images/compass-rotate.png)
+    ![screenshot](images/compass-rotate.png)
     
-    Acum, scrisoarea compasului va fi aliniată cu porturile USB, ceea ce face mai multă sens când se utilizează Sense HAT ca busolă.
+    Now the compass letter will be lined up with the USB ports which makes more sense when using the Sense HAT as a compass.
 
-+ Acum, să arătăm un E pe ecran când Sense HAT se îndreaptă spre est. Dacă nu vă confruntați cu nordul, atunci poziția trebuie să fie mai mare de 45 de grade, astfel încât să puteți verifica dacă este mai mică de 315:
++ Now let's show an E on the screen when the Sense HAT is facing east. If you're not facing north then the heading must be more than 45 degrees so you can just check that it's less than 315:
     
-    ![captură de ecran](images/compass-east-code.png)
+    ![screenshot](images/compass-east-code.png)
 
-+ Adăugați codul pentru sud. Uită-te la busola pentru a determina ce condiție trebuie să fie.
++ Add the code for south. Look at the compass to work out what the condition needs to be.
 
-+ Codul dvs. ar trebui să arate astfel:
++ Your code should look like this:
     
-    ![captură de ecran](images/compass-south-code.png)
+    ![screenshot](images/compass-south-code.png)
 
-+ Acum adăugați codul pentru vest. Dacă nu este nord, est sau sud, atunci trebuie să fie spre vest! Puteți folosi doar "altceva".
++ Now add the code for west. If it's not north, east or south then it must be west! You can just use an 'else'.
     
-    ![captură de ecran](images/compass-west-code.png)
+    ![screenshot](images/compass-west-code.png)
 
-+ Testați-vă codul trăgând Sense HAT în jur.
++ Test your code by dragging the Sense HAT around.
     
-    Ai făcut o busolă Sense HAT!
+    You've made a Sense HAT compass!
