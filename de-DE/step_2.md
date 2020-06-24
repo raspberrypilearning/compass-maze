@@ -16,7 +16,7 @@ Here's a reminder of the points of a compass:
 
 + Run your code to see the compass heading - how many degrees you are from facing north.
     
-    ![Screenshot](images/compass-east.png)
+    ![screenshot](images/compass-east.png)
     
     In its starting position the Sense HAT is facing east and you should see values of about 90 degrees.
     
