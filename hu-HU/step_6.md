@@ -1,4 +1,4 @@
-\--- kihívás \---
+\--- challenge \---
 
 ## Challenge: Reward the player
 
@@ -8,4 +8,4 @@ You'll need to replace the highlighted code with your own code:
 
 ![screenshot](images/compass-reward.png)
 
-\--- / challenge \---
+\--- /challenge \---
