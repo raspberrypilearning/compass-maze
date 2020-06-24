@@ -4,7 +4,7 @@ Now let's use the compass to navigate around a maze.
 
 The rooms and doors in the Maze are as shown in this map:
 
-![스크린샷](images/compass-maze-map.png)
+![screenshot](images/compass-maze-map.png)
 
 You start in the Blue room and need to find the Green room to escape.
 
@@ -19,25 +19,25 @@ You start in the Blue room and need to find the Green room to escape.
     
     You'll need to import `maze.py`:
     
-    ![스크린샷](images/compass-import.png)
+    ![screenshot](images/compass-import.png)
 
 + Start the game with `maze.start()`:
     
-    ![스크린샷](images/compass-start.png)
+    ![screenshot](images/compass-start.png)
 
 + You'll see the game instructions appear below the Sense HAT.
     
-    ![스크린샷](images/compass-start-test.png)
+    ![screenshot](images/compass-start-test.png)
 
 + To move around the maze you need to use `maze.walk(dir)` with the direction you want to move in.
     
     Put the current compass direction in a `dir` variable, you'll need to set it for each compass direction:
     
-    ![스크린샷](images/compass-dir.png)
+    ![screenshot](images/compass-dir.png)
 
 + Now let's have the player move in the direction the Sense HAT compass is pointing when they press the middle button on the joystick.
     
-    ![스크린샷](images/compass-joystick.png)
+    ![screenshot](images/compass-joystick.png)
 
 + Try moving around the maze using the compass.
     
@@ -49,6 +49,6 @@ You start in the Blue room and need to find the Green room to escape.
 
 + When the player reaches the Green room they have managed to escape the maze. Let's turn the screen green when they win and end the game:
     
-    ![스크린샷](images/compass-end.png)
+    ![screenshot](images/compass-end.png)
     
     The `break` finished the loop to end the game.
