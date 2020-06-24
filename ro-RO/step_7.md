@@ -1,14 +1,14 @@
 \--- challenge \---
 
-## Provocare: creați propriul labirint
+## Challenge: Create your own maze
 
-Creați-vă propriul labirint colorat și obțineți un prieten pentru a încerca să-și găsească calea afară folosind busola Sense HAT.
+Create your own colourful maze and get a friend to try and find their way out using the Sense HAT compass.
 
-Va trebui să:
+You'll need to:
 
-+ Editați dicționarul camerelor în maze.py
-+ Editați dicționarul de culori în maze.py
++ Edit the rooms dictionary in maze.py
++ Edit the colours dictionary in maze.py
 
-S-ar putea să vă ajute să trasați mai întâi harta pe hârtie.
+It might help to draw your map on paper first.
 
 \--- /challenge \---
