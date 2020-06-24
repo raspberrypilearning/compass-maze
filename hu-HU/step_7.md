@@ -1,4 +1,4 @@
-\--- kihívás \---
+\--- challenge \---
 
 ## Challenge: Create your own maze
 
@@ -11,4 +11,4 @@ You'll need to:
 
 It might help to draw your map on paper first.
 
-\--- / challenge \---
+\--- /challenge \---
