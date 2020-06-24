@@ -6,7 +6,7 @@ In the emulator North corresponds to the top of your screen. The Sense HAT repor
 
 Here's a reminder of the points of a compass:
 
-![schermata](images/compass-nsew.png)
+![screenshot](images/compass-nsew.png)
 
 + Open the Compass Maze Starter Trinket: <a href="http://jumpto.cc/compass-go" target="_blank">jumpto.cc/compass-go</a>.
 
@@ -24,7 +24,7 @@ Here's a reminder of the points of a compass:
 
 + Drag the Sense HAT around to change its direction.
     
-    ![schermata](images/compass-north.png)
+    ![screenshot](images/compass-north.png)
     
     Try finding different directions:
     
