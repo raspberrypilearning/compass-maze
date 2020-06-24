@@ -4,7 +4,7 @@ Next let's show the compass direction, N, E, S or W, on the Sense HAT screen.
 
 If the compass heading in degrees is between 315 and 45 then the Sense HAT is pointing North and you want to display an 'N'. If the heading is between 45 and 315 then you want to display an 'E' and so on.
 
-![screenshot (στιγμιότυπο οθόνης)](images/compass-quadrants.png)
+![screenshot](images/compass-quadrants.png)
 
 + First let's show an N on the screen when the Sense HAT is facing north.
     
@@ -36,7 +36,7 @@ The 'N' won't disappear, you need to add code for the other directions.
 
 + Add the code for south. Look at the compass to work out what the condition needs to be.
 
-+ Ο κώδικας θα πρέπει να μοιάζει κάπως έτσι:
++ Your code should look like this:
     
     ![screenshot](images/compass-south-code.png)
 
