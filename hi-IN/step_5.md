@@ -1,27 +1,27 @@
-## रंग जोड़ना
+## Add colours
 
-बेहतर होगा कि यदि आप Sense HAT को देखकर ही यह बता सकें कि आप किस कमरे में थे।
+It would be better if you could tell which room you were in just by looking at the Sense HAT.
 
-आइए हम वर्तमान कमरे के रंग में कंपास अक्षर को प्रदर्शित करें।
+Let's display the compass letter in the colour of the current room.
 
-उदाहरण के लिए, यदि आप नीले कमरे में हैं और आपका मुँह दक्षिण की ओर है तो आपको नीला अक्षर S दिखाई देना चाहिए।
+For example, if you're in the Blue room and facing South you should see a blue letter S.
 
-+ आपको `sense.show_letter` को कोई `text-colour` (पाठ-रंग) प्रदान करना होगा। इसे चार बार करने के बजाय, Sense HAT पर दिखाने के लिए अक्षर का पता लगाने के लिए dir variable (निर्देशिका वेरिएबल) का उपयोग करने के लिए कोड को बदलें।
++ You'll need to provide a `text-colour` to `sense.show_letter`. Rather than do that four times, change the code to use the dir variable to work out the letter to show on the Sense HAT.
     
-    `dir[0].upper()` स्ट्रिंग के पहले अक्षर को लेता है और उसे बड़े अक्षर में बदल देता है जिससे "उत्तर" दिशा के लिए आपको 'N' मिलता है।
+    `dir[0].upper()` takes the first letter of a string and turns it into a capital so "north" gives you 'N'.
     
-    `show_letter` का एक बार उपयोग करने के लिए अपना कंपास कोड बदलें:
+    Change your compass code to use `show_letter` once:
     
-    ![स्क्रीनशॉट](images/compass-upper.png)
+    ![screenshot](images/compass-upper.png)
 
-+ आपका कंपास कोड इस प्रकार दिखना चाहिए:
++ Your compass code should look like this:
     
-    ![स्क्रीनशॉट](images/compass-upper-done.png)
+    ![screenshot](images/compass-upper-done.png)
 
-+ अब जब आप कंपास अक्षर को प्रदर्शित करते हैं तो वर्तमान कमरे के रंग का उपयोग करें:
++ Now use the colour of the current room when you display the compass letter:
     
-    ![स्क्रीनशॉट](images/compass-colour.png)
+    ![screenshot](images/compass-colour.png)
 
-+ अपने कोड का परीक्षण करें और आपको यह पता चलना चाहिए कि आप अक्षर के रंग को देखकर यह बता सकते हैं कि आप किस कमरे में हैं।
++ Test your code and you should find that you can tell which room you're in from the colour of the letter.
     
-    ![स्क्रीनशॉट](images/compass-colour-east.png)
+    ![screenshot](images/compass-colour-east.png)
