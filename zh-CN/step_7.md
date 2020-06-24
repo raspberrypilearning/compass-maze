@@ -4,7 +4,7 @@
 
 Create your own colourful maze and get a friend to try and find their way out using the Sense HAT compass.
 
-你需要：
+You'll need to:
 
 + Edit the rooms dictionary in maze.py
 + Edit the colours dictionary in maze.py
