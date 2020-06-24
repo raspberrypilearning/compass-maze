@@ -1,54 +1,54 @@
-## भूलभुलैया में से नेविगेट करना
+## Navigating the maze
 
-आइए अब किसी भूलभुलैया के इर्द-गिर्द नेविगेट करने के लिए कंपास का उपयोग करें।
+Now let's use the compass to navigate around a maze.
 
-भूलभुलैया में कमरे और दरवाजे इस नक्शे में दिखाए गए अनुसार हैं:
+The rooms and doors in the Maze are as shown in this map:
 
-![स्क्रीनशॉट](images/compass-maze-map.png)
+![screenshot](images/compass-maze-map.png)
 
-आप नीले कमरे में शुरू करते हैं और वहाँ से निकलने के लिए आपको हरा कमरा ढूँढना होता है।
+You start in the Blue room and need to find the Green room to escape.
 
-+ एक साधारण साहसिक गेम (जैसी RPG प्रोजेक्ट में होती है) बनाने के लिए कोड आपकी प्रोजेक्ट में maze.py में है।
++ The code for creating a simple adventure game (like the one in the RPG project) is in maze.py in your project.
     
-    `maze.py` में कुछ फंक्शन होते हैं जो आपको भूलभुलैया गेम लिखने में मदद करते हैं:
+    `maze.py` includes some functions to help you write a maze game:
     
-    + `maze.start()` - गेम को शुरू करता है
-    + `maze.escaped()` - आपको बताता है कि खिलाड़ी भूलभुलैया से निकल पाया है या नहीं
-    + `maze.walk(dir)` - खिलाड़ी को दी गई दिशा में ले जाता है
-    + `maze.getColour()` - आपको वर्तमान कमरे का रंग बताता है
+    + `maze.start()` - starts the game
+    + `maze.escaped()` - tells you whether the player has escaped the maze
+    + `maze.walk(dir)` - moves the player in the given direction
+    + `maze.getColour()` - gives you the colour of the current room
     
-    आपको `maze.py` आयात करना होगा:
+    You'll need to import `maze.py`:
     
-    ![स्क्रीनशॉट](images/compass-import.png)
+    ![screenshot](images/compass-import.png)
 
-+ गेम `maze.start()` से स्टार्ट करें:
++ Start the game with `maze.start()`:
     
-    ![स्क्रीनशॉट](images/compass-start.png)
+    ![screenshot](images/compass-start.png)
 
-+ गेम के निर्देश आपको Sense HAT के नीचे दिखाई देंगे।
++ You'll see the game instructions appear below the Sense HAT.
     
-    ![स्क्रीनशॉट](images/compass-start-test.png)
+    ![screenshot](images/compass-start-test.png)
 
-+ भूलभुलैया के इर्द-गिर्द जाने के लिए आप जिस दिशा में जाना चाहते हैं उसके साथ आपको `maze.walk(dir)` का उपयोग करना होगा।
++ To move around the maze you need to use `maze.walk(dir)` with the direction you want to move in.
     
-    वर्तमान कंपास दिशा को `dir` वेरिएबल में रखें, आपको इसे प्रत्येक कंपास दिशा के लिए सेट करना होगा:
+    Put the current compass direction in a `dir` variable, you'll need to set it for each compass direction:
     
-    ![स्क्रीनशॉट](images/compass-dir.png)
+    ![screenshot](images/compass-dir.png)
 
-+ आइए अब हम खिलाड़ी को उस दिशा में चलने दें जिस दिशा में Sense HAT कंपास तब इंगित करता है जब वे जॉयस्टिक पर बीच का बटन दबाते हैं।
++ Now let's have the player move in the direction the Sense HAT compass is pointing when they press the middle button on the joystick.
     
-    ![स्क्रीनशॉट](images/compass-joystick.png)
+    ![screenshot](images/compass-joystick.png)
 
-+ कंपास का उपयोग करके भूलभुलैया के इर्द-गिर्द चलने का प्रयास करें।
++ Try moving around the maze using the compass.
     
-    जॉयस्टिक को दबाने के लिए आपको Sense HAT विंडो में क्लिक करना होगा और फिर कीबोर्ड पर एंटर (रिटर्न) कुंजी को दबाना होगा।
+    To press the joystick you need to click in the Sense HAT window and then press Enter (Return) on the keyboard.
 
-+ अपने प्रोजेक्ट का परीक्षण करने के लिए Sense HAT को उस दिशा में ले जाएँ जिसमें आप जाना चाहते हैं और फिर कीबोर्ड पर Enter कुंजी पर टैप करें।
++ Test your project by moving the Sense HAT to the direction you want to move in and then tapping Enter on the keyboard.
     
-    यदि आपको हरे कमरे को खोजने में मदद चाहिए हो तो मानचित्र देखें।
+    Look at the map if you need help to find the Green room.
 
-+ जब खिलाड़ी हरे कमरे में पहुँच जाता है तो इसका मतलब है कि वह भूलभुलैया से निकलने में कामयाब हो गया है। तो आइए हम खिलाड़ी के जीत जाने पर स्क्रीन को हरा कर दें और गेम को समाप्त कर दें:
++ When the player reaches the Green room they have managed to escape the maze. Let's turn the screen green when they win and end the game:
     
-    ![स्क्रीनशॉट](images/compass-end.png)
+    ![screenshot](images/compass-end.png)
     
-    गेम को समाप्त करने के लिए `break` लूप को समाप्त कर देता है।
+    The `break` finished the loop to end the game.
