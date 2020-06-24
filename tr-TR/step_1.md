@@ -1,4 +1,4 @@
-## Giriş:
+## Introduction:
 
 In this project you will use the the Sense HAT as a compass to navigate out of a maze of colourful rooms. You will need to point the Sense HAT in the direction you want to move and then press the button in the middle of the joystick to make a move.
 
@@ -13,15 +13,15 @@ Your current compass direction will appear on the Sense HAT display (N, S, E or 
 
 When you are facing in the direction you want to go, press the middle button on the joystick by pressing enter on the keyboard.
 
-### Kulüp liderleri için ek bilgiler
+### Additional information for club leaders
 
-Bu projeyi yazdırmanız gerekiyorsa, lütfen [Yazıcı dostu sürümü](https://projects.raspberrypi.org/en/projects/compass-maze/print) kullanın.
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/compass-maze/print).
 
-## \--- küçült \---
+## \--- collapse \---
 
-## title: Kulüp lideri notları
+## title: Club leader notes
 
-## Giriş:
+## Introduction:
 
 In this project, children will learn how to use the Sense HAT magnetometer (compass), and use the compass direction to navigate through a maze.
 
@@ -53,11 +53,11 @@ You can also find a completed version of this project in the 'Volunteer Resource
 
 * How to use the Sense HAT magnetometer (`get_compass()`)
 
-Bu proje, [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) 'un aşağıdaki bölümlerinden unsurları kapsamaktadır:
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
 * [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Meydan Okumalar
+## Challenges
 
 * "Reward the player" - Displaying n image on the LEDs at the end of the game;
 * "Create your own maze" - edit the maze dictionary to create their own maze.
@@ -66,7 +66,7 @@ Bu proje, [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) 'un
 
 ## \--- collapse \---
 
-## title: Proje materyalleri
+## title: Project materials
 
 ## Project resources
 
@@ -75,7 +75,7 @@ Bu proje, [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) 'un
 * [Offline starter Python file](resources/compass-maze-main.py)
 * [Offline starter Python file containing the maze code](resources/compass-maze-maze.py)
 
-## Kulüp lideri için kaynaklar
+## Club leader resources
 
 * [.zip file containing all completed project resources](resources/compass-maze-volunteer-resources.zip)
 * [Online completed Trinket Compass Maze project](https://trinket.io/python/0c8cdacd70)
