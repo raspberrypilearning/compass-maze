@@ -1,49 +1,49 @@
-## कंपास की दिशा दिखाना
+## Showing the compass direction
 
-इसके बाद आइए हम आपको Sense HAT स्क्रीन पर, कंपास की N, E, S या W दिशा दिखाएँ।
+Next let's show the compass direction, N, E, S or W, on the Sense HAT screen.
 
-यदि कंपास का रुझान डिग्री में 315 और 45 के बीच है तो Sense HAT उत्तर की ओर इंगित कर रहा है और आप 'N' प्रदर्शित करना चाहते हैं। यदि रुझान 45 और 315 के बीच है तो आप 'E' आदि प्रदर्शित करना चाहते हैं।
+If the compass heading in degrees is between 315 and 45 then the Sense HAT is pointing North and you want to display an 'N'. If the heading is between 45 and 315 then you want to display an 'E' and so on.
 
-![स्क्रीनशॉट](images/compass-quadrants.png)
+![screenshot](images/compass-quadrants.png)
 
-+ तो आइए पहले हम स्क्रीन पर N दिखाएँ जब Sense HAT का मुँह उत्तर की ओर हो।
++ First let's show an N on the screen when the Sense HAT is facing north.
     
-    याद रखें कि जब जब Sense HAT का मुँह उत्तर की ओर होता है तो यूएसबी पोर्ट शीर्ष पर होते हैं:
+    Remember that when the Sense HAT is facing North the USB ports are at the top:
     
-    ![स्क्रीनशॉट](images/compass-north.png)
+    ![screenshot](images/compass-north.png)
 
-+ जब कंपास का रुझान 45 और 135 के बीच हो तो 'N' प्रदर्शित करने के लिए अपना कोड बदलें:
++ Change your code to display an 'N' when the compass heading is between 45 and 135:
     
-    ![स्क्रीनशॉट](images/compass-north-code.png)
+    ![screenshot](images/compass-north-code.png)
 
-+ अपने कंपास का परीक्षण करने के लिए Sense Hat को उत्तर (यूएसबी पोर्ट स्क्रीन के शीर्ष पर) की ओर खींचें।
++ Drag the Sense HAT to North (USB ports at the top of the screen) to test your compass.
     
-    ![स्क्रीनशॉट](images/compass-north-test.png)
+    ![screenshot](images/compass-north-test.png)
 
-'N' गायब नहीं होगा, अन्य दिशाओं के लिए आपको कोड जोड़ने की आवश्यकता होगी।
+The 'N' won't disappear, you need to add code for the other directions.
 
-+ अरे, 'N' तो किनारे पर है। अक्षर को उसी दिशा में रखने में अधिक समझदारी होगी जिस दिशा में USB पोर्ट हैं।
++ Hmm, the 'N' is sideways. It would make more sense to have the letter facing in the same direction as the USB ports.
     
-    Sense HAT के डिस्प्ले को घुमाने के लिए निम्न कोड जोड़ें।
+    Add the following code to rotate the Sense HAT display.
     
-    ![स्क्रीनशॉट](images/compass-rotate.png)
+    ![screenshot](images/compass-rotate.png)
     
-    अब कंपास का अक्षर USB पोर्ट के साथ अनुरूप किया हुआ होगा जिससे Sense HAT का उपयोग कंपास के रूप में करने में अधिक समझदारी होगी।
+    Now the compass letter will be lined up with the USB ports which makes more sense when using the Sense HAT as a compass.
 
-+ आइए अब हम स्क्रीन पर E दिखाएँ जब Sense HAT का मुँह पूर्व की ओर हो। यदि आपका मुँह उत्तर की ओर नहीं है, तो हैडिंग 45 डिग्री से अधिक होना चाहिए ताकि आप जाँच कर सकें कि यह 315 से कम है:
++ Now let's show an E on the screen when the Sense HAT is facing east. If you're not facing north then the heading must be more than 45 degrees so you can just check that it's less than 315:
     
-    ![स्क्रीनशॉट](images/compass-east-code.png)
+    ![screenshot](images/compass-east-code.png)
 
-+ दक्षिण के लिए कोड जोड़ें। यह जानने के लिए कंपास की ओर देखें कि क्या स्थिति होनी चाहिए।
++ Add the code for south. Look at the compass to work out what the condition needs to be.
 
-+ आपका कोड इस प्रकार दिखना चाहिए:
++ Your code should look like this:
     
-    ![स्क्रीनशॉट](images/compass-south-code.png)
+    ![screenshot](images/compass-south-code.png)
 
-+ अब पश्चिम के लिए कोड जोड़ें। यदि यह उत्तर, पूर्व या दक्षिण नहीं है तो यह पश्चिम होना चाहिए! आप किसी 'अन्यथा' का उपयोग कर सकते हैं।
++ Now add the code for west. If it's not north, east or south then it must be west! You can just use an 'else'.
     
-    ![स्क्रीनशॉट](images/compass-west-code.png)
+    ![screenshot](images/compass-west-code.png)
 
-+ Sense HAT को इधर-उधर खींचकर अपने कोड का परीक्षण करें।
++ Test your code by dragging the Sense HAT around.
     
-    आपने एक Sense HAT कंपास बना लिया है!
+    You've made a Sense HAT compass!
