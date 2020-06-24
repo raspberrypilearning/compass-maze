@@ -1,38 +1,38 @@
-## Finding the compass direction
+## إيجاد اتجاه البوصلة
 
-The Sense HAT contains a magnetometer that can be used to work out which direction is North.
+يحتوي Sense HAT على مقياس مغناطيسي يمكن استخدامه لتحديد الاتجاه الشمالي.
 
-In the emulator North corresponds to the top of your screen. The Sense HAT reports a compass heading in degrees from North.
+في المحاكي الشمال يتوافق مع الجزء العلوي من الشاشة، المحاكي هو (برنامج كمبيوتر يحاكي شيئًا آخر ، عادةً ما يكون جهازًا حقيقي مثل Sense Hat أو وحدة تحكم ألعاب). الــSense HAT تشير إلى ان البوصلة تتجه بدرجات من الشمال.
 
-Here's a reminder of the points of a compass:
+فيما يلي تذكير بنقاط البوصلة:
 
 ![لقطة الشاشة](images/compass-nsew.png)
 
-+ Open the Compass Maze Starter Trinket: <a href="http://jumpto.cc/compass-go" target="_blank">jumpto.cc/compass-go</a>.
++ افتح مشروع trinket هذا: <a href="http://jumpto.cc/compass-go" target="_blank">jumpto.cc/compass-go</a>.
 
-+ Let's find out which direction the Sense HAT is pointing in. Add the following code to the bottom of `main.py`:
++ دعونا نعرف الاتجاه الذي يشير إليه Sense HAT. أضف التعليمات البرمجية التالية إلى أسفل ` main.py `:
     
     ![لقطة الشاشة](images/compass-get.png)
 
-+ Run your code to see the compass heading - how many degrees you are from facing north.
++ قم بتشغيل التعليمات البرمجية الخاصة بك لرؤية عنوان البوصلة - كم عدد الدرجات من مواجهة الشمال.
     
     ![لقطة الشاشة](images/compass-east.png)
     
-    In its starting position the Sense HAT is facing east and you should see values of about 90 degrees.
+    في بداية تشغيل البرنامج ، ستجد Sense HAT جهة الشرق ويجب أن ترى قيمًا تبلغ حوالي 90 درجة.
     
-    The direction is based on the USB ports.
+    يعتمد الاتجاه على منافذ USB.
 
-+ Drag the Sense HAT around to change its direction.
++ اسحب جهاز Sense HAT لتغيير اتجاهها.
     
     ![لقطة الشاشة](images/compass-north.png)
     
-    Try finding different directions:
+    حاول إيجاد اتجاهات مختلفة:
     
-    + North: Around 360 or 0 degrees 
-    + East: Around 90 degrees
-    + South: Around 180 degrees
-    + West: Around 270 degrees
+    + اتجاه الشمال: حوالي 360 أو 0 درجة 
+    + اتجاه الشرق: حوالي 90 درجة
+    + اتجاه الجنوب: حوالي 180 درجة
+    + اتجاه الغرب: حوالي 270 درجة
 
-+ If you get in a muddle you can always click the reset button to put the Sense HAT back into its starting position.
++ إذا واجهت تشوش ذهني يمكنك دائماً النقر على زر إعادة التعيين لوضع Sense HAT في موضع البداية.
     
     ![لقطة الشاشة](images/compass-reset.png)
