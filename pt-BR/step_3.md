@@ -10,15 +10,15 @@ If the compass heading in degrees is between 315 and 45 then the Sense HAT is po
     
     Remember that when the Sense HAT is facing North the USB ports are at the top:
     
-    ![captura de tela](images/compass-north.png)
+    ![screenshot](images/compass-north.png)
 
 + Change your code to display an 'N' when the compass heading is between 45 and 135:
     
-    ![captura de tela](images/compass-north-code.png)
+    ![screenshot](images/compass-north-code.png)
 
 + Drag the Sense HAT to North (USB ports at the top of the screen) to test your compass.
     
-    ![captura de tela](images/compass-north-test.png)
+    ![screenshot](images/compass-north-test.png)
 
 The 'N' won't disappear, you need to add code for the other directions.
 
@@ -36,7 +36,7 @@ The 'N' won't disappear, you need to add code for the other directions.
 
 + Add the code for south. Look at the compass to work out what the condition needs to be.
 
-+ Seu código deve ficar assim:
++ Your code should look like this:
     
     ![screenshot](images/compass-south-code.png)
 
