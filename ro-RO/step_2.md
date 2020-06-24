@@ -1,38 +1,38 @@
-## Găsirea direcției busolei
+## Finding the compass direction
 
-Sense HAT conține un magnetometru care poate fi folosit pentru a determina ce direcție este Nordul.
+The Sense HAT contains a magnetometer that can be used to work out which direction is North.
 
-În emulator, Nordul corespunde cu partea de sus a ecranului. Sense HAT raportează o rubrică a busolei în grade din nord.
+In the emulator North corresponds to the top of your screen. The Sense HAT reports a compass heading in degrees from North.
 
-Iată un memento a punctelor unei busole:
+Here's a reminder of the points of a compass:
 
-![captură de ecran](images/compass-nsew.png)
+![screenshot](images/compass-nsew.png)
 
-+ Deschideți trinket-ul de lansare al labirintului compas: <a href="http://jumpto.cc/compass-go" target="_blank">jumpto.cc/compass-go</a>.
++ Open the Compass Maze Starter Trinket: <a href="http://jumpto.cc/compass-go" target="_blank">jumpto.cc/compass-go</a>.
 
-+ Hai să aflăm în ce direcție indică Sense HAT. Adăugați următorul cod în partea de jos a `main.py`:
++ Let's find out which direction the Sense HAT is pointing in. Add the following code to the bottom of `main.py`:
     
-    ![captură de ecran](images/compass-get.png)
+    ![screenshot](images/compass-get.png)
 
-+ Rulați codul pentru a vedea poziția busolă - câte grade sunteți de la nord.
++ Run your code to see the compass heading - how many degrees you are from facing north.
     
-    ![captură de ecran](images/compass-east.png)
+    ![screenshot](images/compass-east.png)
     
-    În poziția sa inițială, Sense HAT se îndreaptă spre est și ar trebui să vedeți valori de aproximativ 90 de grade.
+    In its starting position the Sense HAT is facing east and you should see values of about 90 degrees.
     
-    Direcția se bazează pe porturile USB.
+    The direction is based on the USB ports.
 
-+ Trageți Sense HAT în jur pentru a schimba direcția.
++ Drag the Sense HAT around to change its direction.
     
-    ![captură de ecran](images/compass-north.png)
+    ![screenshot](images/compass-north.png)
     
-    Încercați să găsiți direcții diferite:
+    Try finding different directions:
     
-    + Nord: Aproximativ 360 grade sau 0 grade 
-    + Est: Aproximativ 90 de grade
-    + Sud: Aproximativ 180 de grade
-    + Vest: Aproximativ 270 de grade
+    + North: Around 360 or 0 degrees 
+    + East: Around 90 degrees
+    + South: Around 180 degrees
+    + West: Around 270 degrees
 
-+ Dacă intri într-o confuzie, poți oricând să dai clic pe butonul de resetare pentru a pune Sense HAT înapoi în poziția sa inițială.
++ If you get in a muddle you can always click the reset button to put the Sense HAT back into its starting position.
     
-    ![captură de ecran](images/compass-reset.png)
+    ![screenshot](images/compass-reset.png)
