@@ -1,4 +1,4 @@
-## 介紹:
+## Introduction:
 
 In this project you will use the the Sense HAT as a compass to navigate out of a maze of colourful rooms. You will need to point the Sense HAT in the direction you want to move and then press the button in the middle of the joystick to make a move.
 
@@ -13,15 +13,15 @@ Your current compass direction will appear on the Sense HAT display (N, S, E or 
 
 When you are facing in the direction you want to go, press the middle button on the joystick by pressing enter on the keyboard.
 
-### Code Club 工作人員延伸閱讀
+### Additional information for club leaders
 
 If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/compass-maze/print).
 
-## - - 自動隱藏選單 - -
+## \--- collapse \---
 
 ## title: Club leader notes
 
-## 介紹:
+## Introduction:
 
 In this project, children will learn how to use the Sense HAT magnetometer (compass), and use the compass direction to navigate through a maze.
 
@@ -55,16 +55,16 @@ You can also find a completed version of this project in the 'Volunteer Resource
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [結合程式設計結構來解決問題。](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ## Challenges
 
 * "Reward the player" - Displaying n image on the LEDs at the end of the game;
 * "Create your own maze" - edit the maze dictionary to create their own maze.
 
-- - 自動隱藏選單 - -
+\--- /collapse \---
 
-## - - 自動隱藏選單 - -
+## \--- collapse \---
 
 ## title: Project materials
 
@@ -82,4 +82,4 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 * [compass-maze-finished/main.py](resources/compass-maze-finished-main.py)
 * [compass-maze-finished/maze.py](resources/compass-maze-finished-maze.py)
 
-- - 自動隱藏選單 - -
+\--- /collapse \---
