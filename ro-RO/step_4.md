@@ -1,54 +1,54 @@
-## Navigarea în labirint
+## Navigating the maze
 
-Acum, să folosim compasul pentru a naviga în jurul unui labirint.
+Now let's use the compass to navigate around a maze.
 
-Camerele și ușile din labirint sunt prezentate în această hartă:
+The rooms and doors in the Maze are as shown in this map:
 
-![captură de ecran](images/compass-maze-map.png)
+![screenshot](images/compass-maze-map.png)
 
-Începeți în camera Albastră și trebuie să găsiți camera Verde pentru a scăpa.
+You start in the Blue room and need to find the Green room to escape.
 
-+ Codul pentru crearea unui simplu joc de aventură (precum cel din proiectul RPG) se află în maze.py în proiectul dvs.
++ The code for creating a simple adventure game (like the one in the RPG project) is in maze.py in your project.
     
-    `maze.py` include câteva funcții pentru a vă ajuta să scrieți un joc de labirint:
+    `maze.py` includes some functions to help you write a maze game:
     
-    + `maze.start ()` - începe jocul
-    + `maze.escaped ()` - vă spune dacă jucătorul a scăpat de labirint
-    + `maze.walk (dir)` - Mută playerul în direcția dată
-    + `maze.getColour ()` - vă oferă culoarea camerei curente
+    + `maze.start()` - starts the game
+    + `maze.escaped()` - tells you whether the player has escaped the maze
+    + `maze.walk(dir)` - moves the player in the given direction
+    + `maze.getColour()` - gives you the colour of the current room
     
-    Va trebui să importați `maze.py`:
+    You'll need to import `maze.py`:
     
-    ![captură de ecran](images/compass-import.png)
+    ![screenshot](images/compass-import.png)
 
-+ Începeți jocul cu `maze.start ()`:
++ Start the game with `maze.start()`:
     
-    ![captură de ecran](images/compass-start.png)
+    ![screenshot](images/compass-start.png)
 
-+ Veți vedea instrucțiunile jocului care apar sub Sense HAT.
++ You'll see the game instructions appear below the Sense HAT.
     
-    ![captură de ecran](images/compass-start-test.png)
+    ![screenshot](images/compass-start-test.png)
 
-+ Pentru a vă deplasa în labirint trebuie să utilizați `maze.walk (dir)` cu direcția în care doriți să vă mutați.
++ To move around the maze you need to use `maze.walk(dir)` with the direction you want to move in.
     
-    Puneți direcția curentă a busolei într-o variabilă `dir` , va trebui să o setați pentru fiecare direcție a busolei:
+    Put the current compass direction in a `dir` variable, you'll need to set it for each compass direction:
     
-    ![captură de ecran](images/compass-dir.png)
+    ![screenshot](images/compass-dir.png)
 
-+ Acum permiteți-l să se miște jucătorul în direcția în care compasul Sense HAT este îndreptat atunci când apasă butonul din mijloc de pe joystick.
++ Now let's have the player move in the direction the Sense HAT compass is pointing when they press the middle button on the joystick.
     
-    ![captură de ecran](images/compass-joystick.png)
+    ![screenshot](images/compass-joystick.png)
 
-+ Încercați să vă deplasați în labirint folosind busola.
++ Try moving around the maze using the compass.
     
-    Pentru a apăsa pe joystick trebuie să faceți clic în fereastra Sense HAT și apoi apăsați Enter (Return) de pe tastatură.
+    To press the joystick you need to click in the Sense HAT window and then press Enter (Return) on the keyboard.
 
-+ Testați-vă proiectul mutând Sense HAT în direcția în care doriți să vă mutați și apoi atingând Enter de pe tastatură.
++ Test your project by moving the Sense HAT to the direction you want to move in and then tapping Enter on the keyboard.
     
-    Uită-te la hartă dacă ai nevoie de ajutor pentru a găsi camera verde.
+    Look at the map if you need help to find the Green room.
 
-+ Când jucătorul ajunge în camera verde, au reușit să scape de labirint. Să transformăm ecranul verde când câștigă și termină jocul:
++ When the player reaches the Green room they have managed to escape the maze. Let's turn the screen green when they win and end the game:
     
-    ![captură de ecran](images/compass-end.png)
+    ![screenshot](images/compass-end.png)
     
-    `pauză` a terminat bucla pentru a termina jocul.
+    The `break` finished the loop to end the game.
