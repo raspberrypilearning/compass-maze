@@ -11,11 +11,11 @@ description: Use the Sense HAT as a compass and navigate out of a maze.
 original_url: https://codeclubprojects.org/en-GB/sense-hat/compass-maze
 interests: games
 technologies: sense-hat
-site_areas: codeclub, webdev
+site_areas: projects
 hardware: sense-hat
 software: ''
 version: 3
-last_tested: 2017年1月1日
+last_tested: 2017-01-01
 steps:
   - 
     title: 'Introduction'
