@@ -1,10 +1,10 @@
-\--- challange \---
+\--- challenge \---
 
-## Challenge: Reward the player
+## Défi: récompense le joueur
 
-Can you reward the player with a cool display on the Sense HAT when they manage to escape?
+Peux-tu récompenser le joueur avec un affichage cool sur le « Sense HAT » quand il réussit à s'échapper?
 
-You'll need to replace the highlighted code with your own code:
+Tu devras remplacer le code en surbrillance par ton propre code :
 
 ![capture d'écran](images/compass-reward.png)
 
