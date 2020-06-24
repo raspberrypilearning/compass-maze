@@ -1,49 +1,49 @@
-## Showing the compass direction
+## Montrer la direction de la boussole
 
-Next let's show the compass direction, N, E, S or W, on the Sense HAT screen.
+Ensuite montrons la direction de la boussole, N, E, S ou O, sur l'écran Sense HAT.
 
-If the compass heading in degrees is between 315 and 45 then the Sense HAT is pointing North and you want to display an 'N'. If the heading is between 45 and 315 then you want to display an 'E' and so on.
+Si le compas indique entre 315 et 45, le « Sense HAT » pointe vers le nord et tu souhaites afficher un « N ». Si le compas indique entre 45 et 315, tu souhaites afficher un « E », etc.
 
-![screenshot](images/compass-quadrants.png)
+![capture d’écran](images/compass-quadrants.png)
 
-+ First let's show an N on the screen when the Sense HAT is facing north.
++ D'abord, montrons un N à l'écran lorsque le Sense HAT fait face au nord.
     
-    Remember that when the Sense HAT is facing North the USB ports are at the top:
+    Rappelle-toi que lorsque le « Sense HAT » fait face au Nord, les ports USB sont en haut :
     
     ![capture d'écran](images/compass-north.png)
 
-+ Change your code to display an 'N' when the compass heading is between 45 and 135:
++ Change ton code pour afficher un « N » quand le cap du compas est compris entre 45 et 135 :
     
-    ![screenshot](images/compass-north-code.png)
+    ![capture d'écran](images/compass-north-code.png)
 
-+ Drag the Sense HAT to North (USB ports at the top of the screen) to test your compass.
++ Fais glisser le « Sense HAT » vers le nord (ports USB en haut de l'écran) pour tester ton compas.
     
     ![capture d'écran](images/compass-north-test.png)
 
-The 'N' won't disappear, you need to add code for the other directions.
+Le « N » ne disparaîtra pas, tu dois ajouter du code pour les autres directions.
 
-+ Hmm, the 'N' is sideways. It would make more sense to have the letter facing in the same direction as the USB ports.
++ Hmm, le « N » est de côté. Il serait plus logique que la lettre soit orientée dans la même direction que les ports USB.
     
-    Add the following code to rotate the Sense HAT display.
+    Ajoute le code suivant pour faire pivoter l'affichage du « Sense HAT ».
     
     ![capture d'écran](images/compass-rotate.png)
     
-    Now the compass letter will be lined up with the USB ports which makes more sense when using the Sense HAT as a compass.
+    Maintenant, la lettre de la boussole sera alignée avec les ports USB, ce qui est plus logique lorsque tu utilises le « Sense HAT » comme boussole.
 
-+ Now let's show an E on the screen when the Sense HAT is facing east. If you're not facing north then the heading must be more than 45 degrees so you can just check that it's less than 315:
++ D'abord, montrons un N à l'écran lorsque le Sense HAT fait face au nord. Si tu n'es pas face au nord, le cap doit être supérieur à 45 degrés, tu peux donc vérifier qu'il est inférieur à 315 degrés :
     
     ![capture d'écran](images/compass-east-code.png)
 
-+ Add the code for south. Look at the compass to work out what the condition needs to be.
++ Ajoute le code pour le sud. Regarde le compas pour déterminer quelle doit être la condition.
 
-+ Your code should look like this:
++ Ton code devrait ressembler à ceci :
     
     ![capture d'écran](images/compass-south-code.png)
 
-+ Now add the code for west. If it's not north, east or south then it must be west! You can just use an 'else'.
++ Ajoute maintenant le code pour l'ouest. Si ce n'est pas au nord, à l'est ou au sud, alors ça doit être à l'ouest ! Tu peux juste utiliser un 'else'.
     
     ![capture d'écran](images/compass-west-code.png)
 
-+ Test your code by dragging the Sense HAT around.
++ Teste ton code en faisant tourner le « Sense HAT ».
     
-    You've made a Sense HAT compass!
+    Tu as fait une boussole Sense HAT !
