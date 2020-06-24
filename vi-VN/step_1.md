@@ -1,4 +1,4 @@
-## Giới thiệu:
+## Introduction:
 
 In this project you will use the the Sense HAT as a compass to navigate out of a maze of colourful rooms. You will need to point the Sense HAT in the direction you want to move and then press the button in the middle of the joystick to make a move.
 
@@ -13,15 +13,15 @@ Your current compass direction will appear on the Sense HAT display (N, S, E or 
 
 When you are facing in the direction you want to go, press the middle button on the joystick by pressing enter on the keyboard.
 
-### Thông tin bổ sung cho lãnh đạo của các câu lạc bộ
+### Additional information for club leaders
 
-Nếu bạn cần in dự án này, vui lòng sử dụng [Phiên bản thân thiện với máy in](https://projects.raspberrypi.org/en/projects/compass-maze/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/compass-maze/print).
 
-## \--- sụp đổ \---
+## \--- collapse \---
 
-## title: Ghi chú dành cho lãnh đạo câu lạc bộ
+## title: Club leader notes
 
-## Giới thiệu:
+## Introduction:
 
 In this project, children will learn how to use the Sense HAT magnetometer (compass), and use the compass direction to navigate through a maze.
 
@@ -49,24 +49,24 @@ You can also find a completed version of this project in the 'Volunteer Resource
 
 (All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## Mục tiêu học tập
+## Learning Objectives
 
 * How to use the Sense HAT magnetometer (`get_compass()`)
 
-Dự án này bao gồm các nội dung sau từ chương trình [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Kết hợp các cấu trúc lập trình để giải quyết vấn đề.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Thử thách
+## Challenges
 
 * "Reward the player" - Displaying n image on the LEDs at the end of the game;
 * "Create your own maze" - edit the maze dictionary to create their own maze.
 
 \--- /collapse \---
 
-## \--- sụp đổ \---
+## \--- collapse \---
 
-## title: Tài liệu và tài nguyên cho dự án
+## title: Project materials
 
 ## Project resources
 
@@ -75,7 +75,7 @@ Dự án này bao gồm các nội dung sau từ chương trình [Raspberry Pi D
 * [Offline starter Python file](resources/compass-maze-main.py)
 * [Offline starter Python file containing the maze code](resources/compass-maze-maze.py)
 
-## Tài liệu và tài nguyên cho lãnh đạo câu lạc bộ
+## Club leader resources
 
 * [.zip file containing all completed project resources](resources/compass-maze-volunteer-resources.zip)
 * [Online completed Trinket Compass Maze project](https://trinket.io/python/0c8cdacd70)
