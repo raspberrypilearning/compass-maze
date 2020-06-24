@@ -1,4 +1,4 @@
-## Einleitung:
+## Introduction:
 
 In this project you will use the the Sense HAT as a compass to navigate out of a maze of colourful rooms. You will need to point the Sense HAT in the direction you want to move and then press the button in the middle of the joystick to make a move.
 
@@ -13,51 +13,51 @@ Your current compass direction will appear on the Sense HAT display (N, S, E or 
 
 When you are facing in the direction you want to go, press the middle button on the joystick by pressing enter on the keyboard.
 
-### Zusätzliche Information für Clubleiter
+### Additional information for club leaders
 
-Falls du dieses Projekt ausdrucken musst, verwende bitte die [druckfreundliche Version](https://projects.raspberrypi.org/en/projects/compass-maze/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/compass-maze/print).
 
 ## \--- collapse \---
 
-## title: Anmerkungen für Clubleiter
+## title: Club leader notes
 
-## Einleitung:
+## Introduction:
 
 In this project, children will learn how to use the Sense HAT magnetometer (compass), and use the compass direction to navigate through a maze.
 
-## Online-Ressourcen
+## Online Resources
 
-**This project uses Python 3.** We recommend using [Trinket](https://trinket.io/) to write Python online. Dieses Projekt enthält die folgenden Trinkets:
+**This project uses Python 3.** We recommend using [Trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
 
 * ['Compass Maze' Starter Trinket -- jumpto.cc/compass-go](http://jumpto.cc/compass-go)
 
-Außerdem ist ein trinket mit dem vollständigen Projekt verfügbar:
+There is also a trinket containing the completed project:
 
 * [‘Compass Maze’ Finished -- trinket.io/python/d11bf21615](https://trinket.io/python/d11bf21615)
 
-## Offline-Ressourcen
+## Offline Resources
 
-This project can also be [completed offline](https://www.codeclubprojects.org/en-GB/resources/physical-sense-hat/) on a Raspberry Pi computer with a Sense HAT. Sie können auf die Projektressourcen zugreifen, indem Sie auf den Link "Projektmaterial" für dieses Projekt klicken. Dieser Link enthält einen Abschnitt "Projektressourcen" mit Ressourcen, die die Kinder benötigen, um das Projekt offline abschließen zu können. Stelle sicher, dass jedes Kind Zugriff auf eine Kopie dieser Ressourcen hat. Dieser Abschnitt enthält die folgenden Dateien:
+This project can also be [completed offline](https://www.codeclubprojects.org/en-GB/resources/physical-sense-hat/) on a Raspberry Pi computer with a Sense HAT. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
 * compass-maze/main.py
 * compass-maze/maze.py
 
-Eine vollständige Version dieses Projekts finden Sie auch im Abschnitt "Ressourcen für Freiwillige Mitarbeiter" mit diesem Inhalt:
+You can also find a completed version of this project in the 'Volunteer Resources' section, which contains:
 
 * compass-maze-finished/main.py
 * compass-maze-finished/maze.py
 
-(Alle oben genannten Ressourcen können auch als `.zip`-Dateien für Projekte und für Freiwillige heruntergeladen werden.)
+(All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## Lernziele
+## Learning Objectives
 
 * How to use the Sense HAT magnetometer (`get_compass()`)
 
-Dieses Projekt deckt die folgenden Kernbereiche des [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) ab:
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Verschiedene Programmierkonstrukte kombinieren um ein Problem zu lösen.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Herausforderungen
+## Challenges
 
 * "Reward the player" - Displaying n image on the LEDs at the end of the game;
 * "Create your own maze" - edit the maze dictionary to create their own maze.
@@ -66,18 +66,18 @@ Dieses Projekt deckt die folgenden Kernbereiche des [Raspberry Pi Digital Making
 
 ## \--- collapse \---
 
-## title: Projektmaterial
+## title: Project materials
 
-## Projektressourcen
+## Project resources
 
-* [.zip-Datei mit allen Projektressourcen](resources/compass-maze-project-resources.zip)
+* [.zip file containing all project resources](resources/compass-maze-project-resources.zip)
 * [Compass Maze starter project](http://jumpto.cc/compass-go)
 * [Offline starter Python file](resources/compass-maze-main.py)
 * [Offline starter Python file containing the maze code](resources/compass-maze-maze.py)
 
-## Ressourcen für Clubleiter
+## Club leader resources
 
-* [.zip-Datei mit allen fertig gestellten Projektressourcen](resources/compass-maze-volunteer-resources.zip)
+* [.zip file containing all completed project resources](resources/compass-maze-volunteer-resources.zip)
 * [Online completed Trinket Compass Maze project](https://trinket.io/python/0c8cdacd70)
 * [compass-maze-finished/main.py](resources/compass-maze-finished-main.py)
 * [compass-maze-finished/maze.py](resources/compass-maze-finished-maze.py)
