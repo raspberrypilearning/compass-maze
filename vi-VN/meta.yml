@@ -9,9 +9,9 @@ curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Compass Maze
 description: Use the Sense HAT as a compass and navigate out of a maze.
 original_url: https://codeclubprojects.org/en-GB/sense-hat/compass-maze
-interests: trò chơi
+interests: games
 technologies: sense-hat
-site_areas: dự án
+site_areas: projects
 hardware: sense-hat
 software: ''
 version: 3
