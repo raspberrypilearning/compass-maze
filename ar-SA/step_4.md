@@ -1,54 +1,54 @@
-## Navigating the maze
+## التنقل في المتاهة
 
-Now let's use the compass to navigate around a maze.
+الآن دعونا نستخدم البوصلة للتنقل حول المتاهة.
 
-The rooms and doors in the Maze are as shown in this map:
+الغرف والأبواب في المتاهة على النحو المبين في هذه الخريطة:
 
 ![لقطة شاشة](images/compass-maze-map.png)
 
-You start in the Blue room and need to find the Green room to escape.
+أنت تبدأ في الغرفة الزرقاء وتحتاج إلى العثور على الغرفة الخضراء للخروج.
 
-+ The code for creating a simple adventure game (like the one in the RPG project) is in maze.py in your project.
++ التعليمات البرمجية لإنشاء لعبة مغامرة بسيطة (مثل اللعبة في مشروع RPG) موجودة في ملف maze.py في مشروعك.
     
-    `maze.py` includes some functions to help you write a maze game:
+    `maze.py` يتضمن بعض الدوال البرمجية لمساعدتك على كتابة لعبة المتاهة:
     
-    + `maze.start()` - starts the game
-    + `maze.escaped()` - tells you whether the player has escaped the maze
-    + `maze.walk(dir)` - moves the player in the given direction
-    + `maze.getColour()` - gives you the colour of the current room
+    + `maze.start()` - يبدأ اللعبة
+    + `maze.escaped()` - يخبرك ما إذا كان اللاعب قد خرج من المتاهة
+    + `maze.walk(dir)` - ينقل اللاعب في الاتجاه المحدد
+    + `maze.getColour()` - يعطيك لون الغرفة الحالية
     
-    You'll need to import `maze.py`:
+    ستحتاج إلى استيراد `maze.py`:
     
     ![لقطة الشاشة](images/compass-import.png)
 
-+ Start the game with `maze.start()`:
++ ابدأ اللعبة ب `maze.start()`:
     
     ![لقطة الشاشة](images/compass-start.png)
 
-+ You'll see the game instructions appear below the Sense HAT.
++ سترى تعليمات اللعبة تظهر أسفل جهاز Sense HAT.
     
     ![لقطة الشاشة](images/compass-start-test.png)
 
-+ To move around the maze you need to use `maze.walk(dir)` with the direction you want to move in.
++ للتحرك حول المتاهة تحتاج إلى استخدام `maze.walk(dir)` مع الاتجاه الذي تريد الانتقال إليه.
     
-    Put the current compass direction in a `dir` variable, you'll need to set it for each compass direction:
+    ضع اتجاه البوصلة الحالي في متغير `dir` ، ستحتاج إلى تعيينه لكل اتجاه بالبوصلة:
     
     ![لقطة الشاشة](images/compass-dir.png)
 
-+ Now let's have the player move in the direction the Sense HAT compass is pointing when they press the middle button on the joystick.
++ الآن لنجعل اللاعب يتحرك في الاتجاه الذي تشير إليه بوصلة Sense HAT عند الضغط على الزر الأوسط على عصا التحكم.
     
     ![لقطة الشاشة](images/compass-joystick.png)
 
-+ Try moving around the maze using the compass.
++ حاول التحرك حول المتاهة باستخدام البوصلة.
     
-    To press the joystick you need to click in the Sense HAT window and then press Enter (Return) on the keyboard.
+    للضغط على عصا التحكم تحتاج إلى النقر في نافذة Sense HAT ثم اضغط على Enter (العودة) على لوحة المفاتيح.
 
-+ Test your project by moving the Sense HAT to the direction you want to move in and then tapping Enter on the keyboard.
++ اختبر مشروعك عن طريق نقل Sense HAT إلى الاتجاه الذي تريد الانتقال إليه ثم انقر على Enter على لوحة المفاتيح.
     
-    Look at the map if you need help to find the Green room.
+    انظر إلى الخريطة إذا كنت بحاجة إلى مساعدة للعثور على الغرفة الخضراء.
 
-+ When the player reaches the Green room they have managed to escape the maze. Let's turn the screen green when they win and end the game:
++ عندما يصل اللاعب إلى الغرفة الخضراء تمكن من الخروج من المتاهة. دعونا ندير الشاشة الخضراء عندما يفوزون وينهون اللعبة:
     
     ![لقطة الشاشة](images/compass-end.png)
     
-    The `break` finished the loop to end the game.
+    الــ `break` تم الانتهاء من التعليمة تكرار لإنهاء اللعبة.
