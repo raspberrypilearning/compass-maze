@@ -1,27 +1,27 @@
-## Add colours
+## إضافة ألوان
 
-It would be better if you could tell which room you were in just by looking at the Sense HAT.
+سيكون من الأفضل أن تتمكن من معرفة الغرفة التي كنت فيها بمجرد النظر إلى Sense HAT.
 
-Let's display the compass letter in the colour of the current room.
+دعونا نعرض حرف البوصلة بلون الغرفة الحالية.
 
-For example, if you're in the Blue room and facing South you should see a blue letter S.
+على سبيل المثال، إذا كنت في الغرفة الزرقاء وتواجه الجنوب فيجب أن ترى الحرف الأزرق S.
 
-+ You'll need to provide a `text-colour` to `sense.show_letter`. Rather than do that four times, change the code to use the dir variable to work out the letter to show on the Sense HAT.
++ ستحتاج إلى توفير`text-colour ` to` sens.show_letter `. بدلاً من القيام بذلك أربع مرات ، قم بتغيير التعليمة البرمجية لاستخدام متغير dir لعمل الحرف الذي يظهر على Sense HAT.
     
-    `dir[0].upper()` takes the first letter of a string and turns it into a capital so "north" gives you 'N'.
+    `dir[0].upper()` يأخذ الحرف الأول من الكلمة ويحوله إلى حرف كبير بحيث يعطيك "الشمال" تساوي "N".
     
-    Change your compass code to use `show_letter` once:
+    قم بتغيير رمز البوصلة الخاص بك لاستخدام `show_letter` مرة:
     
     ![لقطة الشاشة](images/compass-upper.png)
 
-+ Your compass code should look like this:
++ يجب أن تبدو التعليمات البرمجية خاصتك بالشكل التالي:
     
     ![لقطة الشاشة](images/compass-upper-done.png)
 
-+ Now use the colour of the current room when you display the compass letter:
++ الآن استخدم لون الغرفة الحالية عند عرض رسالة البوصلة:
     
     ![لقطة الشاشة](images/compass-colour.png)
 
-+ Test your code and you should find that you can tell which room you're in from the colour of the letter.
++ اختبر التعليمات البرمجية الخاصة بك ويجب أن تجد أنك تستطيع أن تعرف الغرفة التي تدخلها من خلال لون الرسالة.
     
     ![لقطة الشاشة](images/compass-colour-east.png)
