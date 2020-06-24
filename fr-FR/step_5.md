@@ -1,27 +1,27 @@
-## Add colours
+## Ajouter des couleurs
 
-It would be better if you could tell which room you were in just by looking at the Sense HAT.
+Ce serait mieux si tu pouvais dire dans quelle pièce tu étais juste en regardant le « Sense HAT ».
 
-Let's display the compass letter in the colour of the current room.
+Affichons la lettre de la boussole dans la couleur de la salle actuelle.
 
-For example, if you're in the Blue room and facing South you should see a blue letter S.
+Par exemple, si tu es dans la salle bleue et face au sud, tu devrais voir une lettre S bleue.
 
-+ You'll need to provide a `text-colour` to `sense.show_letter`. Rather than do that four times, change the code to use the dir variable to work out the letter to show on the Sense HAT.
++ Tu devras fournir un <0>text-colour</0> à <0>sense.show_letter</0>. Plutôt que de le faire quatre fois, modifie le code pour utiliser la variable dir pour déterminer la lettre à afficher sur le Sense HAT.
     
-    `dir[0].upper()` takes the first letter of a string and turns it into a capital so "north" gives you 'N'.
+    <0> dir[0].upper () </0> prend la première lettre d'une chaîne et la transforme en une majuscule pour que « nord » te donne « N ».
     
-    Change your compass code to use `show_letter` once:
+    Change ton code de la boussole pour utiliser ` show_letter ` une seule fois :
     
     ![capture d'écran](images/compass-upper.png)
 
-+ Your compass code should look like this:
++ Ton code devrait ressembler à ceci :
     
-    ![screenshot](images/compass-upper-done.png)
+    ![capture d'écran](images/compass-upper-done.png)
 
-+ Now use the colour of the current room when you display the compass letter:
++ Utilise maintenant la couleur de la pièce actuelle lorsque tu affiches la lettre de la boussole:
     
     ![capture d'écran](images/compass-colour.png)
 
-+ Test your code and you should find that you can tell which room you're in from the colour of the letter.
++ Teste ton code et tu dois trouver que tu peux dire dans quelle pièce tu es à partir de la couleur de la lettre.
     
     ![capture d'écran](images/compass-colour-east.png)
