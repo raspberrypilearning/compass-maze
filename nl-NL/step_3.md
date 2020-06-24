@@ -36,7 +36,7 @@ The 'N' won't disappear, you need to add code for the other directions.
 
 + Add the code for south. Look at the compass to work out what the condition needs to be.
 
-+ Je code zou er als volgt uit moeten zien:
++ Your code should look like this:
     
     ![screenshot](images/compass-south-code.png)
 
