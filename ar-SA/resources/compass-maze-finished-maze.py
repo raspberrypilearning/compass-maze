@@ -1,4 +1,4 @@
-#a dictionary linking a room to other room positions
+# قاموس يربط بين غرفة وأماكن الغرف الأخرى
 rooms = {
             'Blue' : { 
                   'south' : 'Red',
@@ -26,12 +26,12 @@ colours = { 'Blue' : [0, 0, 255],
           }
 
 def start():
-  #print a main menu and the commands
+  # اطبع القائمة الرئيسية والأوامر
   print('Find the green room to escape.')
   showStatus()
 
 def showStatus():
-  #print the player's current status
+  # اطبع حالة اللاعب الحالية
   print('---------------------------')
   print('You are in the ' + currentRoom + ' room')
   print("---------------------------")
@@ -49,12 +49,12 @@ currentRoom = 'Blue'
 def walk(dir):
   global currentRoom
   if dir in rooms[currentRoom]:
-  #set the current room to the new room
+  # تعيين الغرفة الحالية للغرفة الجديدة
     currentRoom = rooms[currentRoom][dir]
     print("You walk", dir)
-  #there is no door (link) to the new room
+  # لا يوجد باب (رابط) للغرفة الجديدة
   else:
-    print('You can\'t go that way!')
+    print('لا يمكنك الذهاب من هذا الطريق!')
     
   showStatus()
     
