@@ -1,4 +1,4 @@
-\--- meydan okuma \---
+\--- challenge \---
 
 ## Challenge: Create your own maze
 
