@@ -1,14 +1,14 @@
 \--- challenge \---
 
-## Challenge: Create your own maze
+## التحدي: إنشاء متاهة خاصة بك
 
-Create your own colourful maze and get a friend to try and find their way out using the Sense HAT compass.
+قم بإنشاء متاهة ملونة خاصة بك واطلب من صديقك أن يجد طريقه للخروج باستخدام بوصلة Sense HAT.
 
 ستحتاج إلى:
 
-+ Edit the rooms dictionary in maze.py
-+ Edit the colours dictionary in maze.py
++ تعديل قاموس الغرف في ملف maze.py
++ تعديل قاموس الغرف في ملف maze.py
 
-It might help to draw your map on paper first.
+قد يساعد في رسم خريطتك على الورق أولاً.
 
 \--- challenge/ \---
