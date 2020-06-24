@@ -1,54 +1,54 @@
-## Navigating the maze
+## Naviguer dans le labyrinthe
 
-Now let's use the compass to navigate around a maze.
+Maintenant, utilisons la boussole pour naviguer dans un labyrinthe.
 
-The rooms and doors in the Maze are as shown in this map:
+Les pièces et les portes du labyrinthe sont comme indiquées sur cette carte:
 
-![screenshot](images/compass-maze-map.png)
+![capture d’écran](images/compass-maze-map.png)
 
-You start in the Blue room and need to find the Green room to escape.
+Tu commences dans la salle bleue et tu dois trouver la salle verte pour t'échapper.
 
-+ The code for creating a simple adventure game (like the one in the RPG project) is in maze.py in your project.
++ Le code pour créer un jeu d'aventure simple (comme celui du projet RPG) est dans maze.py dans ton projet.
     
-    `maze.py` includes some functions to help you write a maze game:
+    ` maze.py ` comprend quelques fonctions pour t'aider à écrire un jeu de labyrinthe:
     
-    + `maze.start()` - starts the game
-    + `maze.escaped()` - tells you whether the player has escaped the maze
-    + `maze.walk(dir)` - moves the player in the given direction
-    + `maze.getColour()` - gives you the colour of the current room
+    + ` maze.start () ` - démarre le jeu
+    + ` maze.sorti () ` - t'indique si le joueur s'est échappé du labyrinthe
+    + `maze.marche(dir)` - déplace le joueur dans la direction donnée
+    + ` maze.getColour () ` - te donne la couleur de la pièce actuelle
     
-    You'll need to import `maze.py`:
+    Tu devras importer `maze.py`:
     
     ![capture d'écran](images/compass-import.png)
 
-+ Start the game with `maze.start()`:
++ Démarre le jeu avec ` maze.start () ` :
     
-    ![screenshot](images/compass-start.png)
+    ![capture d'écran](images/compass-start.png)
 
-+ You'll see the game instructions appear below the Sense HAT.
++ Tu verras les instructions du jeu apparaître sous le « Sense HAT ».
     
     ![capture d'écran](images/compass-start-test.png)
 
-+ To move around the maze you need to use `maze.walk(dir)` with the direction you want to move in.
++ Pour te déplacer dans le labyrinthe, tu dois utiliser ` maze.marche (dir) ` avec la direction dans laquelle tu souhaites te déplacer.
     
-    Put the current compass direction in a `dir` variable, you'll need to set it for each compass direction:
+    Mets la direction actuelle du compas dans une variable `dir`, tu devras la définir pour chaque direction de la boussole :
     
     ![capture d'écran](images/compass-dir.png)
 
-+ Now let's have the player move in the direction the Sense HAT compass is pointing when they press the middle button on the joystick.
++ Maintenant, nous allons faire bouger le joueur dans la direction indiquée par la boussole « Sense HAT » lorsqu'il appuie sur le bouton central du joystick.
     
-    ![screenshot](images/compass-joystick.png)
+    ![capture d'écran](images/compass-joystick.png)
 
-+ Try moving around the maze using the compass.
++ Essaye de te déplacer dans le labyrinthe à l'aide de la boussole.
     
-    To press the joystick you need to click in the Sense HAT window and then press Enter (Return) on the keyboard.
+    Pour appuyer sur le joystick, tu dois cliquer dans la fenêtre Sense HAT, puis appuyer sur Entrée (Retour) sur le clavier.
 
-+ Test your project by moving the Sense HAT to the direction you want to move in and then tapping Enter on the keyboard.
++ Teste ton projet en déplaçant le Sense HAT dans la direction dans laquelle tu veux avancer, puis en appuyant sur Entrée sur le clavier.
     
-    Look at the map if you need help to find the Green room.
+    Regarde la carte si tu as besoin d'aide pour trouver la chambre verte.
 
-+ When the player reaches the Green room they have managed to escape the maze. Let's turn the screen green when they win and end the game:
++ Quand le joueur atteint la salle verte, il a réussi à s'échapper du labyrinthe. Faison devenir l'écran vert quand il gagne et termine le jeu :
     
     ![capture d'écran](images/compass-end.png)
     
-    The `break` finished the loop to end the game.
+    Le `break` a terminé la boucle pour terminer la partie.
