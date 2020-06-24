@@ -11,4 +11,4 @@ You'll need to:
 
 It might help to draw your map on paper first.
 
-\--- /thử thách \---
+\--- /challenge \---
