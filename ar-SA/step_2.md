@@ -8,7 +8,7 @@
 
 ![لقطة الشاشة](images/compass-nsew.png)
 
-+ افتح مشروع trinket هذا: <a href="http://jumpto.cc/compass-go" target="_blank">jumpto.cc/compass-go</a>.
++ افتح مشروع trinket هذا: <a href="https://trinket.io/python/082b006850" target="_blank">trinket.io/python/082b006850</a>.
 
 + دعونا نعرف الاتجاه الذي يشير إليه Sense HAT. أضف التعليمات البرمجية التالية إلى أسفل `main.py`:
     

@@ -1,64 +1,64 @@
-#a dictionary linking a room to other room positions
+# قاموس يربط بين غرفة وأماكن الغرف الأخرى
 rooms = {
-            'Blue' : { 
-                  'south' : 'Red',
-                  'west'  : 'Yellow',
-                },        
+            'أزرق' : { 
+                  'الجنوب': 'احمر',
+                  'غرب' : 'أصفر',
+                } ،        
 
-            'Red' : { 
-                  'north' : 'Blue',
-                },
+            'أحمر': { 
+                  'شمال' : 'أزرق',
+                } ،
                 
-            'Yellow' : { 
-                  'east'  : 'Blue',
-                  'south' : 'Green',
-                },
+            'أصفر' : { 
+                  'الشرق' : 'أزرق',
+                  'جنوب' : 'أخضر',
+                } ،
                 
-            'Green' : {    
-                }
+            'أخضر' : {    
+                }}
 
          }
          
-colours = { 'Blue' : [0, 0, 255], 
-            'Red' : [255, 0, 0],
-            'Yellow' : [255, 255, 0],
-            'Green' : [0, 255, 0] 
+colours= { 'أزرق' : [0, 0, 255], 
+            'أحمر': [255, 0, 0],
+            'أصفر' : [255, 255, 0],
+            'أخضر' : [0, 255, 0] 
           }
 
 def start():
-  #print a main menu and the commands
-  print('Find the green room to escape.')
+  # اطبع القائمة الرئيسية والأوامر
+  print('ابحث عن الغرفة الخضراء للخروج.')
   showStatus()
 
-def showStatus():
-  #print the player's current status
+showStatus():
+  # اطبع حالة اللاعب الحالية
   print('---------------------------')
-  print('You are in the ' + currentRoom + ' room')
+  print('أنت في الغرفة ' + currentRoom)
   print("---------------------------")
   
-  if(currentRoom != 'Green'):
-    print("Exits: ")
+  if(currentRoom != 'اخضر'):
+    print("الخروج")
     print(*rooms[currentRoom].keys(), sep=', ')
   
-def getColour():
+def getColour ():
   return colours[currentRoom]
 
-#start the player in the middle
-currentRoom = 'Blue'
+#ابدأ اللاعب في الوسط
+currentRoom = "أزرق"
 
 def walk(dir):
   global currentRoom
   if dir in rooms[currentRoom]:
-  #set the current room to the new room
+  # تعيين الغرفة الحالية للغرفة الجديدة
     currentRoom = rooms[currentRoom][dir]
-    print("You walk", dir)
-  #there is no door (link) to the new room
+    print("أنت تمشي", dir)
+  # لا يوجد باب (رابط) للغرفة الجديدة
   else:
-    print('You can\'t go that way!')
+    print('لا يمكنك الذهاب من هذا الطريق!')
     
   showStatus()
     
   return currentRoom
   
 def escaped():
-  return currentRoom == 'Green'
+  return currentRoom == 'اخضر'
