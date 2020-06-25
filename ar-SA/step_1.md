@@ -3,7 +3,7 @@
 في هذا المشروع سوف تستخدم لوحة Sense HAT كبوصلة للتنقل من متاهة الغرف الملونة. ستحتاج إلى توجيه Sense HAT في الاتجاه الذي تريد تحريكه ، ثم الضغط على الزر الموجود في منتصف عصا التحكم لإجراء حركة.
 
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/python/0c8cdacd70?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark">
+  <iframe src="https://trinket.io/embed/python/44b5691250?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark">
 </iframe> <img src="images/compass-final.png" />
 </div>
 
