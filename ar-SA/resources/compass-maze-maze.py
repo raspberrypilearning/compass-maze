@@ -1,57 +1,57 @@
 # قاموس يربط بين غرفة وأماكن الغرف الأخرى
 rooms = {
-            'Blue' : { 
-                  'south' : 'Red',
-                  'west'  : 'Yellow',
-                },        
+            'أزرق' : { 
+                  "الجنوب": "احمر" ،
+                  'غرب' : 'أصفر',
+                } ،        
 
-            'Red' : { 
-                  'north' : 'Blue',
-                },
+            "أحمر": { 
+                  'شمال' : 'أزرق',
+                } ،
                 
-            'Yellow' : { 
-                  'east'  : 'Blue',
-                  'south' : 'Green',
-                },
+            'أصفر' : { 
+                  'الشرق' : 'أزرق',
+                  'جنوب' : 'أخضر',
+                } ،
                 
-            'Green' : {    
-                }
+            'أخضر' : {    
+                }}
 
          }
          
-colours = { 'Blue' : [0, 0, 255], 
-            'Red' : [255, 0, 0],
-            'Yellow' : [255, 255, 0],
-            'Green' : [0, 255, 0] 
+colours= { 'أزرق' : [0، 0، 255]، 
+            "أحمر": [255 ، 0 ، 0] ،
+            'أصفر' : [255، 255، 0]
+            'أخضر' : [0، 255، 0] 
           }
 
 def start():
   # اطبع القائمة الرئيسية والأوامر
-  print('Find the green room to escape.')
+  اطبع ("ابحث عن الغرفة الخضراء للخروج.")
   showStatus()
 
-def showStatus():
+showStatus():
   # اطبع حالة اللاعب الحالية
   print('---------------------------')
-  print('You are in the ' + currentRoom + ' room')
+  print('أنت في الغرفة ' + currentRoom)
   print("---------------------------")
   
-  if(currentRoom != 'Green'):
-    print("Exits: ")
+  if(currentRoom != 'اخضر'):
+    print("الخروج")
     print(*rooms[currentRoom].keys(), sep=', ')
   
-def getColour():
+def getColour ():
   return colours[currentRoom]
 
 #start the player in the middle
-currentRoom = 'Blue'
+currentRoom = "أزرق"
 
 def walk(dir):
   global currentRoom
   if dir in rooms[currentRoom]:
   # تعيين الغرفة الحالية للغرفة الجديدة
     currentRoom = rooms[currentRoom][dir]
-    print("You walk", dir)
+    print("أنت تمشي", dir)
   # لا يوجد باب (رابط) للغرفة الجديدة
   else:
     print('لا يمكنك الذهاب من هذا الطريق!')
@@ -61,4 +61,4 @@ def walk(dir):
   return currentRoom
   
 def escaped():
-  return currentRoom == 'Green'
+  return currentRoom == 'اخضر'
