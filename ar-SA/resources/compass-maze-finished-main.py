@@ -16,13 +16,13 @@ while True:
   heading = sense.get_compass()
 
   if heading < 45 or heading > 315:
-    dir = 'north'
+    dir = 'شمال'
   elif heading < 135:
-    dir = 'east'
+    dir = 'الشرق'
   elif heading < 225:
-    dir = 'south'
+    dir = 'جنوب'
   else:
-    dir = 'west'
+    dir = 'الشرق'
     
   sense.show_letter(dir[0].upper(), text_colour=maze.getColour())
   
