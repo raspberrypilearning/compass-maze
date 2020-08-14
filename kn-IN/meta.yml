@@ -1,0 +1,33 @@
+---
+hero_image: images/compass-maze.png
+theme: blue
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: ಕಂಪಾಸ್ ಮೇಜ್(Maze)
+description: "Sense HAT ಅನ್ನು ದಿಕ್ಸೂಚಿಯಾಗಿ ಬಳಸಿ ಮೇಜ್ ನಿಂದ ಹೊರಗೆ\n ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ."
+original_url: https://codeclubprojects.org/en-GB/sense-hat/compass-maze
+interests: games
+technologies: sense-hat
+site_areas: projects
+hardware: sense-hat
+software: ''
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: 'ಪರಿಚಯ'
+  - 
+    title: ದಿಕ್ಸೂಚಿಯ ನಿರ್ದೇಶನವನ್ನು ಕಂಡುಹಿಡಿಯುವುದು
+  - 
+    title: ದಿಕ್ಸೂಚಿಯ ನಿರ್ದೇಶನವನ್ನು ತೋರಿಸುವುದು
+  - 
+    title: ಮೇಜ್ ಅನ್ನು ನ್ಯಾವಿಗೇಟ್ ಮಾಡುವುದು
+  - 
+    title: ಬಣ್ಣಗಳನ್ನು ಸೇರಿಸಿ
+  - 
+    title: 'ಸವಾಲು: ಆಟಗಾರನಿಗೆ ಬಹುಮಾನ ನೀಡಿ'
+  - 
+    title: 'ಸವಾಲು: ನಿಮ್ಮ ಸ್ವಂತ ಮೇಜ್ ಅನ್ನು ರಚಿಸಿ'
