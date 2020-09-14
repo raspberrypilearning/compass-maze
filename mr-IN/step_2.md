@@ -8,7 +8,7 @@ Sense HAT मध्ये एक मॅग्नेटोमीटर आहे 
 
 ![screenshot](images/compass-nsew.png)
 
-+ होकायंत्र चक्रव्यूह Starter Trinket उघडा:<a href="http://jumpto.cc/compass-go" target="_blank">jumpto.cc/compass-go</a>.
++ होकायंत्र चक्रव्यूह Starter Trinket उघडा: <a href="http://jumpto.cc/compass-go" target="_blank">jumpto.cc/compass-go</a>.
 
 + Sense HAT कोणती दिशा दर्शवित आहे ते शोधा. `main.py` च्या तळाशी खालील कोड जोडा:
     
