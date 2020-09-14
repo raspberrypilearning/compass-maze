@@ -15,7 +15,7 @@
 
 ### क्लब प्रमुखांसाठी अधिक माहिती
 
-तुम्हाला जर हा प्रोजेक्ट प्रिंट करण्याची गरज असेल तर कृपया [Printer friendly version](https://projects.raspberrypi.org/en/projects/compass-maze/print) वापरा.
+तुम्हाला हा प्रकल्प प्रिंट करण्याची आवश्यकता असल्यास, कृपया [प्रिंट अनुकूल आवृत्ती](https://projects.raspberrypi.org/en/projects/compass-maze/print) वापरा.
 
 ## \--- collapse \---
 
