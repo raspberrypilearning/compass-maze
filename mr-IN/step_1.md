@@ -27,7 +27,7 @@
 
 ## ऑनलाईन संसाधने
 
-हा प्रोजेक्ट **Python 3** चा वापर करतो. Python (पायथन) ऑनलाईन लिहिण्यासाठी आम्ही [trinket](https://trinket.io/) वापरण्याचा सल्ला देतो. ह्या प्रोजेक्ट मध्ये खालील Trinkets आहेत:
+हा प्रोजेक्ट **Python 3** चा वापर करतो. Python (पायथन) ऑनलाईन लिहिण्यासाठी आम्ही [Trinket](https://trinket.io/) वापरण्याचा सल्ला देतो. ह्या प्रोजेक्ट मध्ये खालील Trinkets आहेत:
 
 * ['होकायंत्र चक्रव्यूह' Starter Trinket -- jumpto.cc/compass-go](http://jumpto.cc/compass-go)
 
@@ -53,7 +53,7 @@
 
 * Sense HAT मॅग्नेटोमीटर कसा वापरायचा (`get_compass ()`)
 
-ह्या प्रोजेक्टमध्ये [रास्पबेरी पाय डिजिटल मेकिंग अभ्यासक्रम](http://rpf.io/curriculum) चे खालील घटक समाविष्ट आहेत:
+ह्या प्रोजेक्टमध्ये [Raspberry Pi डिजिटल मेकिंग अभ्यासक्रम](http://rpf.io/curriculum) चे खालील घटक समाविष्ट आहेत:
 
 * [समस्या सोडवण्यासाठी प्रोग्रामिंग संकल्पना एकत्र करा.](https://www.raspberrypi.org/curriculum/programming/builder)
 
