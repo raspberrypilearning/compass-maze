@@ -1,4 +1,4 @@
-#a dictionary linking a room to other room positions
+# खोलीतील इतर खोल्यांच्या स्थानाशी जोडणारा एक शब्दकोश
 rooms = {
             'Blue' : { 
                   'south' : 'Red',
@@ -26,12 +26,12 @@ colours = { 'Blue' : [0, 0, 255],
           }
 
 def start():
-  #print a main menu and the commands
+  # मुख्य मेनू आणि कमांड प्रिंट करा
   print('Find the green room to escape.')
   showStatus()
 
 def showStatus():
-  #print the player's current status
+  # खेळाडूची सद्य स्थिती प्रिंट करा
   print('---------------------------')
   print('You are in the ' + currentRoom + ' room')
   print("---------------------------")
@@ -43,16 +43,16 @@ def showStatus():
 def getColour():
   return colours[currentRoom]
 
-#start the player in the middle
+# मध्यभागी प्लेअरला प्रारंभ करा
 currentRoom = 'Blue'
 
 def walk(dir):
   global currentRoom
   if dir in rooms[currentRoom]:
-  #set the current room to the new room
+  # नवीन खोलीत सध्याची खोली सेट करा
     currentRoom = rooms[currentRoom][dir]
     print("You walk", dir)
-  #there is no door (link) to the new room
+  # नवीन खोलीत दरवाजा (दुवा) नाही
   else:
     print('You can\'t go that way!')
     
