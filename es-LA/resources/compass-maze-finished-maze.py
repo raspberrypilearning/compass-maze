@@ -1,64 +1,64 @@
-#a dictionary linking a room to other room positions
-rooms = {
-            'Blue' : { 
-                  'south' : 'Red',
-                  'west'  : 'Yellow',
+#un diccionario que enlaza una habitación a las posiciones de las otras habitaciones
+habitaciones = {
+            'Azul' : { 
+                  'sur' : 'Rojo',
+                  'oeste' : 'Amarillo',
                 },        
 
-            'Red' : { 
-                  'north' : 'Blue',
+            'Rojo' : { 
+                  'norte' : 'Azul',
                 },
                 
-            'Yellow' : { 
-                  'east'  : 'Blue',
-                  'south' : 'Green',
+            'Amarillo' : { 
+                  'este' : 'Azul',
+                  'sur' : 'Verde',
                 },
                 
-            'Green' : {    
+            'Verde' : {    
                 }
 
          }
          
-colours = { 'Blue' : [0, 0, 255], 
-            'Red' : [255, 0, 0],
-            'Yellow' : [255, 255, 0],
-            'Green' : [0, 255, 0] 
+colores = { 'Azul' : [0, 0, 255], 
+            'Rojo' : [255, 0, 0],
+            'Amarillo' : [255, 255, 0],
+            'Verde' : [0, 255, 0] 
           }
 
 def start():
-  #print a main menu and the commands
-  print('Find the green room to escape.')
+  #imprime un menú principal y los comandos
+  print ('Encuentra la habitación verde para escapar.')
   showStatus()
 
 def showStatus():
-  #print the player's current status
+  #imprimir el estado actual del jugador
   print('---------------------------')
-  print('You are in the ' + currentRoom + ' room')
+  print('Estás en la habitación ' + currentRoom)
   print("---------------------------")
   
-  if(currentRoom != 'Green'):
-    print("Exits: ")
-    print(*rooms[currentRoom].keys(), sep=', ')
+  if(currentRoom != 'Verde'):
+    print("Salidas: ")
+    print(*habitaciones[currentRoom].keys(), sep=', ')
   
 def getColour():
-  return colours[currentRoom]
+  return colores[currentRoom]
 
-#start the player in the middle
-currentRoom = 'Blue'
+#comienza el jugador en el medio
+currentRoom = 'Azul'
 
 def walk(dir):
   global currentRoom
-  if dir in rooms[currentRoom]:
-  #set the current room to the new room
-    currentRoom = rooms[currentRoom][dir]
-    print("You walk", dir)
-  #there is no door (link) to the new room
+  if dir in habitaciones[currentRoom]:
+  #establecer la habitación actual a la nueva habitación
+    currentRoom = habitaciones[currentRoom][dir]
+    print("Caminas hacia el", dir)
+  #no hay puerta (enlace) a la nueva habitación
   else:
-    print('You can\'t go that way!')
+    print('¡No puedes ir en esa dirección!')
     
   showStatus()
     
   return currentRoom
   
 def escaped():
-  return currentRoom == 'Green'
+  return currentRoom == 'Verde'
