@@ -13,16 +13,16 @@ sense.set_rotation(90)
             
 while True:
     
-  heading = sense.get_compass()
+  rumbo = sense.get_compass()
 
-  if heading < 45 or heading > 315:
-    dir = 'north'
-  elif heading < 135:
-    dir = 'east'
-  elif heading < 225:
-    dir = 'south'
+  if rumbo < 45 or rumbo > 315:
+    dir = 'norte'
+  elif rumbo < 135:
+    dir = 'este'
+  elif rumbo < 225:
+    dir = 'sur'
   else:
-    dir = 'west'
+    dir = 'oeste'
     
   sense.show_letter(dir[0].upper(), text_colour=maze.getColour())
   
