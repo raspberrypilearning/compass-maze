@@ -15,7 +15,7 @@
 
 ### ಕ್ಲಬ್ ಮುಖಂಡರಿಗಾಗಿ ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ
 
-ನೀವು ಈ ಪ್ರಾಜೆಕ್ಟ್ ಅನ್ನು ಮುದ್ರಿಸಬೇಕಾದರೆ, ದಯವಿಟ್ಟು [Printer friendly version](https://projects.raspberrypi.org/en/projects/compass-maze/print)ಬಳಸಿ.
+ನೀವು ಈ ಯೋಜನೆಯನ್ನು ಮುದ್ರಿಸಬೇಕಾದರೆ, ದಯವಿಟ್ಟು [ಮುದ್ರಕ-ಸ್ನೇಹಿ ಆವೃತ್ತಿಯನ್ನು ಬಳಸಿ](https://projects.raspberrypi.org/en/projects/compass-maze/print).
 
 ## \--- collapse \---
 
