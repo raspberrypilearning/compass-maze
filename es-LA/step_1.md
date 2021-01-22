@@ -9,9 +9,9 @@ En este proyecto, usarás el Sense HAT como brújula para navegar fuera de un la
 
 Para jugar, presiona Run y lee el texto que aparece en la ventana de salida de Trinket.
 
-La dirección actual de la brújula aparecerá en la pantalla del Sense HAT (N para Norte, S para Sur, E para Este o W para Oeste.). Puedes cambiar la dirección moviendo el Sense HAT en el emulador de Trinket.
+La dirección actual de la brújula aparecerá en la pantalla del Sense HAT (N para Norte, S para Sur, E para Este u O para Oeste.). Puedes cambiar la dirección moviendo el Sense HAT en el emulador de Trinket.
 
-Cuando estés mirando en la dirección que deseas ir (N, S, E o W), presiona el botón en el joystick presionando Enter en el teclado.
+Cuando estés mirando en la dirección que deseas ir (N, S, E u O), presiona el botón en el joystick presionando Enter en el teclado.
 
 ### Información adicional para los líderes del club
 
