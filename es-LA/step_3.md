@@ -1,6 +1,6 @@
 ## Mostrando la dirección de la brújula
 
-Ahora, mostremos la dirección de la brújula, N (norte), E (este), S (sur) o W (oeste), en la pantalla Sense HAT.
+Ahora, mostremos la dirección de la brújula, N (norte), E (este), S (sur) o O (oeste), en la pantalla Sense HAT.
 
 Si la indicación de la brújula está entre 315 y 45 grados, entonces el Sense HAT está apuntando hacia el norte y se desea mostrar una 'N'. Si la indicación está entre 45 y 315 grados, entonces se desea mostrar una 'E' y así sucesivamente.
 
