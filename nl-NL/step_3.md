@@ -1,49 +1,49 @@
-## Showing the compass direction
+## Laat de kompasrichting zien
 
-Next let's show the compass direction, N, E, S or W, on the Sense HAT screen.
+Laten we vervolgens de kompasrichting N, O, Z of W op het Sense HAT-scherm tonen.
 
-If the compass heading in degrees is between 315 and 45 then the Sense HAT is pointing North and you want to display an 'N'. If the heading is between 45 and 315 then you want to display an 'E' and so on.
+Als de kompasrichting in graden tussen 315 en 45 ligt, wijst de Sense HAT naar het noorden en wil je een 'N' weergeven. Als de richting tussen 45 en 315 ligt, wil je een 'O' weergeven enzovoort.
 
-![screenshot](images/compass-quadrants.png)
+![schermafbeelding](images/compass-quadrants.png)
 
-+ First let's show an N on the screen when the Sense HAT is facing north.
++ Laten we eerst een N op het scherm tonen als de Sense HAT naar het noorden is gericht.
     
-    Remember that when the Sense HAT is facing North the USB ports are at the top:
+    Onthoud dat wanneer de Sense HAT naar het noorden is gericht, de USB-poorten zich bovenaan bevinden:
     
-    ![screenshot](images/compass-north.png)
+    ![schermafbeelding](images/compass-north.png)
 
-+ Change your code to display an 'N' when the compass heading is between 45 and 135:
++ Wijzig je code om een 'N' weer te geven wanneer de kompasrichting tussen 45 en 135 ligt:
     
-    ![screenshot](images/compass-north-code.png)
+    ![schermafbeelding](images/compass-north-code.png)
 
-+ Drag the Sense HAT to North (USB ports at the top of the screen) to test your compass.
++ Sleep de Sense HAT naar het noorden (USB-poorten bovenaan het scherm) om je kompas te testen.
     
-    ![screenshot](images/compass-north-test.png)
+    ![schermafbeelding](images/compass-north-test.png)
 
-The 'N' won't disappear, you need to add code for the other directions.
+De 'N' verdwijnt niet, je moet code toevoegen voor de andere richtingen.
 
-+ Hmm, the 'N' is sideways. It would make more sense to have the letter facing in the same direction as the USB ports.
++ Hmm, de 'N' is op zijn kant. Het zou logischer zijn om de letter in dezelfde richting te laten wijzen als de USB-poorten.
     
-    Add the following code to rotate the Sense HAT display.
+    Voeg de volgende code toe om het Sense HAT-display te draaien.
     
-    ![screenshot](images/compass-rotate.png)
+    ![schermafbeelding](images/compass-rotate.png)
     
-    Now the compass letter will be lined up with the USB ports which makes more sense when using the Sense HAT as a compass.
+    Nu wordt de kompasletter uitgelijnd met de USB-poorten, wat logischer is wanneer je de Sense HAT als kompas gebruikt.
 
-+ Now let's show an E on the screen when the Sense HAT is facing east. If you're not facing north then the heading must be more than 45 degrees so you can just check that it's less than 315:
++ Laten we nu een O op het scherm laten zien als de Sense HAT naar het oosten is gericht. Als je niet naar het noorden kijkt, moet de koers meer dan 45 graden zijn, dus je kunt gewoon controleren of deze minder dan 315 is:
     
-    ![screenshot](images/compass-east-code.png)
+    ![schermafbeelding](images/compass-east-code.png)
 
-+ Add the code for south. Look at the compass to work out what the condition needs to be.
++ Voeg de code voor zuid toe. Kijk naar het kompas om erachter te komen wat de voorwaarde is.
 
-+ Your code should look like this:
++ Je code zou er als volgt uit moeten zien:
     
-    ![screenshot](images/compass-south-code.png)
+    ![schermafbeelding](images/compass-south-code.png)
 
-+ Now add the code for west. If it's not north, east or south then it must be west! You can just use an 'else'.
++ Voeg nu de code voor west toe. Als het niet noord, oost of zuid is, dan moet het wel west zijn! Je kunt gewoon een "else" gebruiken.
     
-    ![screenshot](images/compass-west-code.png)
+    ![schermafbeelding](images/compass-west-code.png)
 
-+ Test your code by dragging the Sense HAT around.
++ Test je code door de Sense HAT rond te slepen.
     
-    You've made a Sense HAT compass!
+    Je hebt een Sense HAT-kompas gemaakt!
