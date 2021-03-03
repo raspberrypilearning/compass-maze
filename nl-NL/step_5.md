@@ -1,27 +1,27 @@
-## Add colours
+## Voeg kleuren toe
 
-It would be better if you could tell which room you were in just by looking at the Sense HAT.
+Het zou beter zijn als je kon zien in welke kamer je was door gewoon naar de Sense HAT te kijken.
 
-Let's display the compass letter in the colour of the current room.
+Laten we de kompasletter weergeven in de kleur van de huidige kamer.
 
-For example, if you're in the Blue room and facing South you should see a blue letter S.
+Als je bijvoorbeeld in de blauwe kamer bent en op het zuiden gericht bent, zou je een blauwe letter Z moeten zien.
 
-+ You'll need to provide a `text-colour` to `sense.show_letter`. Rather than do that four times, change the code to use the dir variable to work out the letter to show on the Sense HAT.
++ Je moet een `text_colour` (tekstkleur) meegeven aan `sense.show_letter`. In plaats van dat vier keer te doen, verander je de code om de richting-variabele te gebruiken om de letter te bepalen die op de Sense HAT moet worden weergegeven.
     
-    `dir[0].upper()` takes the first letter of a string and turns it into a capital so "north" gives you 'N'.
+    `richting[0].upper()` neemt de eerste letter van een tekenreeks en verandert deze in een hoofdletter dus "noord" geeft je 'N'.
     
-    Change your compass code to use `show_letter` once:
+    Wijzig je kompascode om `show_letter` één keer te gebruiken:
     
-    ![screenshot](images/compass-upper.png)
+    ![schermafbeelding](images/compass-upper.png)
 
-+ Your compass code should look like this:
++ Je kompascode zou er als volgt uit moeten zien:
     
-    ![screenshot](images/compass-upper-done.png)
+    ![schermafbeelding](images/compass-upper-done.png)
 
-+ Now use the colour of the current room when you display the compass letter:
++ Gebruik nu de kleur van de huidige kamer wanneer je de kompasletter weergeeft:
     
-    ![screenshot](images/compass-colour.png)
+    ![schermafbeelding](images/compass-colour.png)
 
-+ Test your code and you should find that you can tell which room you're in from the colour of the letter.
++ Test je code en je zult zien dat je aan de kleur van de letter kunt zien in welke kamer je je bevindt.
     
-    ![screenshot](images/compass-colour-east.png)
+    ![schermafbeelding](images/compass-colour-east.png)
