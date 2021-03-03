@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: Reward the player
+## Uitdaging: beloon de speler
 
-Can you reward the player with a cool display on the Sense HAT when they manage to escape?
+Kun je de speler belonen met een coole weergave op de Sense HAT als ze erin slagen te ontsnappen?
 
-You'll need to replace the highlighted code with your own code:
+Je moet de gemarkeerde code vervangen door je eigen code:
 
-![screenshot](images/compass-reward.png)
+![schermafbeelding](images/compass-reward.png)
 
 \--- /challenge \---
