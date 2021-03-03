@@ -1,84 +1,84 @@
-## Introduction:
+## Inleiding:
 
-In this project you will use the the Sense HAT as a compass to navigate out of a maze of colourful rooms. You will need to point the Sense HAT in the direction you want to move and then press the button in the middle of the joystick to make a move.
+In dit project gebruik je de Sense HAT als kompas om uit een doolhof van kleurrijke kamers te navigeren. Je zult de Sense HAT moeten laten wijzen in de richting die je wilt bewegen en vervolgens op de knop in het midden van de joystick moeten drukken om een zet te doen.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/0c8cdacd70?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark">
 </iframe> <img src="images/compass-final.png" />
 </div>
 
-To play the game press Run and read the text that appears in the trinket output window.
+Om het spel te spelen druk je op Run en lees je de tekst in het trinket-uitvoervenster.
 
-Your current compass direction will appear on the Sense HAT display (N, S, E or W.) You can change direction by moving the Sense HAT in the emulator.
+Je huidige kompasrichting verschijnt op het Sense HAT-display (N, Z, O of W.). Je kunt van richting veranderen door de Sense HAT in de emulator te bewegen.
 
-When you are facing in the direction you want to go, press the middle button on the joystick by pressing enter on the keyboard.
+Wanneer je in de richting kijkt die je wilt gaan, druk je op de middelste knop op de joystick door op Enter op het toetsenbord te drukken.
 
-### Additional information for club leaders
+### Aanvullende informatie voor clubleiders
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/compass-maze/print).
+Als je dit project wilt afdrukken, gebruik dan de [printervriendelijke versie](https://projects.raspberrypi.org/en/projects/compass-maze/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Opmerkingen voor docenten
 
-## Introduction:
+## Inleiding:
 
-In this project, children will learn how to use the Sense HAT magnetometer (compass), and use the compass direction to navigate through a maze.
+In dit project leren kinderen de Sense HAT-magnetometer (kompas) te gebruiken en de kompasrichting te gebruiken om door een doolhof te navigeren.
 
-## Online Resources
+## Online bronnen
 
-**This project uses Python 3.** We recommend using [Trinket](https://trinket.io/) to write Python online. This project contains the following Trinkets:
+**Dit project maakt gebruik van Python 3.** We raden aan om [Trinket](https://trinket.io/) te gebruiken om Python online te schrijven. Dit project bevat de volgende Trinkets:
 
-* ['Compass Maze' Starter Trinket -- jumpto.cc/compass-go](http://jumpto.cc/compass-go)
+* ['Kompasdoolhof' start Trinket - jumpto.cc/compass-go](http://jumpto.cc/compass-go)
 
-There is also a trinket containing the completed project:
+Er is ook een trinket met het voltooide project:
 
-* [‘Compass Maze’ Finished -- trinket.io/python/d11bf21615](https://trinket.io/python/d11bf21615)
+* ['Kompasdoolhof' voltooid - trinket.io/python/d11bf21615](https://trinket.io/python/d11bf21615)
 
-## Offline Resources
+## Offline bronnen
 
-This project can also be [completed offline](https://www.codeclubprojects.org/en-GB/resources/physical-sense-hat/) on a Raspberry Pi computer with a Sense HAT. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+Dit project kan ook [offline voltooid worden](https://www.codeclubprojects.org/en-GB/resources/physical-sense-hat/) op een Raspberry Pi-computer met een Sense HAT. Je kunt toegang krijgen tot de projectbronnen door op de koppeling 'Projectmaterialen' voor dit project te klikken. Deze link bevat een 'Projectbronnen'-sectie die bronnen bevat om dit project offline te voltooien. Zorg ervoor dat elk kind toegang heeft tot een kopie van deze bestanden. Dit gedeelte bevat de volgende bestanden:
 
 * compass-maze/main.py
 * compass-maze/maze.py
 
-You can also find a completed version of this project in the 'Volunteer Resources' section, which contains:
+Je kunt ook een voltooide versie van dit project vinden in de sectie 'Vrijwilligersbronnen', die het volgende bevat:
 
 * compass-maze-finished/main.py
 * compass-maze-finished/maze.py
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Alle bovenstaande bronnen kunnen ook worden gedownload als project en als vrijwilliger `.zip` bestanden.)
 
-## Learning Objectives
+## Leerdoelen
 
-* How to use the Sense HAT magnetometer (`get_compass()`)
+* Hoe de Sense HAT-magnetometer te gebruiken (`get_compass()`)
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combineer programmeerconstructies om een ​​probleem op te lossen.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## Uitdagingen
 
-* "Reward the player" - Displaying n image on the LEDs at the end of the game;
-* "Create your own maze" - edit the maze dictionary to create their own maze.
+* "Beloon de speler" - Toon een afbeelding op de LED's aan het einde van het spel;
+* "Maak je eigen doolhof" - bewerk het doolhofwoordenboek om je eigen doolhof te maken.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Projectmaterialen
 
-## Project resources
+## Projectbronnen
 
-* [.zip file containing all project resources](resources/compass-maze-project-resources.zip)
-* [Compass Maze starter project](http://jumpto.cc/compass-go)
-* [Offline starter Python file](resources/compass-maze-main.py)
-* [Offline starter Python file containing the maze code](resources/compass-maze-maze.py)
+* [.zip-bestand met alle projectbronnen](resources/compass-maze-project-resources.zip)
+* [Kompasdoolhof startproject](http://jumpto.cc/compass-go)
+* [Offline start Python-bestand](resources/compass-maze-main.py)
+* [Offline start Python-bestand met de doolhofcode](resources/compass-maze-maze.py)
 
-## Club leader resources
+## Clubleider bronnen
 
-* [.zip file containing all completed project resources](resources/compass-maze-volunteer-resources.zip)
-* [Online completed Trinket Compass Maze project](https://trinket.io/python/0c8cdacd70)
+* [.zip-bestand met alle voltooide projectbronnen](resources/compass-maze-volunteer-resources.zip)
+* [Online voltooid Trinket kompasdoolhof project](https://trinket.io/python/0c8cdacd70)
 * [compass-maze-finished/main.py](resources/compass-maze-finished-main.py)
 * [compass-maze-finished/maze.py](resources/compass-maze-finished-maze.py)
 
