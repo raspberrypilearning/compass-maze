@@ -1,64 +1,64 @@
-#a dictionary linking a room to other room positions
-rooms = {
-            'Blue' : { 
-                  'south' : 'Red',
-                  'west'  : 'Yellow',
+#een woordenboek dat een kamer koppelt aan andere kamerposities
+kamers = {
+            'Blauwe' : { 
+                  'zuid' : 'Rode',
+                  'west' : 'Gele',
                 },        
 
-            'Red' : { 
-                  'north' : 'Blue',
+            'Rode' : { 
+                  'noord' : 'Blauwe',
                 },
                 
-            'Yellow' : { 
-                  'east'  : 'Blue',
-                  'south' : 'Green',
+            'Gele' : { 
+                  'oost' : 'Blauwe',
+                  'zuid' : 'Groene',
                 },
                 
-            'Green' : {    
+            'Groene' : {    
                 }
 
          }
          
-colours = { 'Blue' : [0, 0, 255], 
-            'Red' : [255, 0, 0],
-            'Yellow' : [255, 255, 0],
-            'Green' : [0, 255, 0] 
+kleuren = { 'Blauwe' : [0, 0, 255], 
+            'Rode' : [255, 0, 0],
+            'Gele' : [255, 255, 0],
+            'Groene' : [0, 255, 0] 
           }
 
 def start():
-  #print a main menu and the commands
-  print('Find the green room to escape.')
-  showStatus()
+  #laat een hoofdmenu en de commando's zien
+  print('Vind de groene kamer om te ontsnappen.')
+  toonStatus()
 
-def showStatus():
-  #print the player's current status
+def toonStatus():
+  #laat de huidige status van de speler zien
   print('---------------------------')
-  print('You are in the ' + currentRoom + ' room')
+  print('Je bent in de ' + huidigeKamer + ' kamer')
   print("---------------------------")
   
-  if(currentRoom != 'Green'):
-    print("Exits: ")
-    print(*rooms[currentRoom].keys(), sep=', ')
+  if(huidigeKamer != 'Groen'):
+    print("Uitgangen: ")
+    print(*kamers[huidigeKamer].keys(), sep=', ')
   
-def getColour():
-  return colours[currentRoom]
+def geefKleur():
+  return kleuren[huidigeKamer]
 
-#start the player in the middle
-currentRoom = 'Blue'
+#laat de speler in het midden beginnen
+huidigeKamer = 'Blauwe'
 
-def walk(dir):
-  global currentRoom
-  if dir in rooms[currentRoom]:
-  #set the current room to the new room
-    currentRoom = rooms[currentRoom][dir]
-    print("You walk", dir)
-  #there is no door (link) to the new room
+def loop(richting):
+  global huidigeKamer
+  if richting in kamers[huidigeKamer]:
+  #de huidige kamer wordt de nieuwe kamer
+    huidigeKamer = kamers[huidigeKamer][richting]
+    print("Je loopt ", richting)
+  #er is geen deur (verbinding) naar de nieuwe kamer
   else:
-    print('You can\'t go that way!')
+    print('Je kunt zo niet gaan!')
     
-  showStatus()
+  toonStatus()
     
-  return currentRoom
+  return huidigeKamer
   
-def escaped():
-  return currentRoom == 'Green'
+def ontsnapt():
+  return huidigeKamer == 'Groene'
