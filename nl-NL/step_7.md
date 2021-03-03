@@ -1,14 +1,14 @@
 \--- challenge \---
 
-## Challenge: Create your own maze
+## Uitdaging: maak je eigen doolhof
 
-Create your own colourful maze and get a friend to try and find their way out using the Sense HAT compass.
+Maak je eigen kleurrijke doolhof en laat een vriend proberen de weg naar buiten te vinden met behulp van het Sense HAT-kompas.
 
-You'll need to:
+Je moet het volgende doen:
 
-+ Edit the rooms dictionary in maze.py
-+ Edit the colours dictionary in maze.py
++ Bewerk het kamerswoordenboek in maze.py
++ Bewerk het kleurenwoordenboek in maze.py
 
-It might help to draw your map on paper first.
+Het kan helpen om je kaart eerst op papier te tekenen.
 
 \--- /challenge \---
