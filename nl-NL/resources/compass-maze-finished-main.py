@@ -13,24 +13,24 @@ sense.set_rotation(90)
             
 while True:
     
-  heading = sense.get_compass()
+  koers = sense.get_compass()
 
-  if heading < 45 or heading > 315:
-    dir = 'north'
-  elif heading < 135:
-    dir = 'east'
-  elif heading < 225:
-    dir = 'south'
+  if koers < 45 or koers > 315:
+    richting = 'noord'
+  elif koers < 135:
+    richting = 'oost'
+  elif koers < 225:
+    richting = 'zuid'
   else:
-    dir = 'west'
+    richting = 'west'
     
-  sense.show_letter(dir[0].upper(), text_colour=maze.getColour())
+  sense.show_letter(richting[0].upper(), text_colour=maze.geefKleur())
   
   for e in sense.stick.get_events():
     if e.action == ACTION_PRESSED and e.direction == DIRECTION_MIDDLE:
-      maze.walk(dir)
+      maze.loop(richting)
       
-  if maze.escaped():
+  if maze.ontsnapt():
     sense.clear(0, 255, 0)
-    break;
+    break
         
