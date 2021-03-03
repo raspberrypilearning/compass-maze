@@ -1,54 +1,54 @@
-## Navigating the maze
+## Navigeren door het doolhof
 
-Now let's use the compass to navigate around a maze.
+Laten we nu het kompas gebruiken om door een doolhof te navigeren.
 
-The rooms and doors in the Maze are as shown in this map:
+De kamers en deuren in het doolhof zijn zoals weergegeven op deze kaart:
 
-![screenshot](images/compass-maze-map.png)
+![schermafbeelding](images/compass-maze-map.png)
 
-You start in the Blue room and need to find the Green room to escape.
+Je begint in de blauwe kamer en moet de groene kamer vinden om te ontsnappen.
 
-+ The code for creating a simple adventure game (like the one in the RPG project) is in maze.py in your project.
++ De code voor het maken van een eenvoudig avonturenspel (zoals die in het RPG-project) staat in maze.py in je project.
     
-    `maze.py` includes some functions to help you write a maze game:
+    `maze.py` bevat enkele functies om je te helpen een doolhofspel te schrijven:
     
-    + `maze.start()` - starts the game
-    + `maze.escaped()` - tells you whether the player has escaped the maze
-    + `maze.walk(dir)` - moves the player in the given direction
-    + `maze.getColour()` - gives you the colour of the current room
+    + `maze.start()` - start het spel
+    + `maze.ontsnapt()` - vertelt je of de speler is ontsnapt aan het doolhof
+    + `maze.loop(richting)` - beweegt de speler in de aangegeven richting
+    + `maze.geefKleur()` - geeft je de kleur van de huidige kamer
     
-    You'll need to import `maze.py`:
+    Je moet `maze.py` importeren:
     
-    ![screenshot](images/compass-import.png)
+    ![schermafbeelding](images/compass-import.png)
 
-+ Start the game with `maze.start()`:
++ Start het spel met `maze.start()`:
     
-    ![screenshot](images/compass-start.png)
+    ![schermafbeelding](images/compass-start.png)
 
-+ You'll see the game instructions appear below the Sense HAT.
++ Je ziet de spelinstructies onder de Sense HAT verschijnen.
     
-    ![screenshot](images/compass-start-test.png)
+    ![schermafbeelding](images/compass-start-test.png)
 
-+ To move around the maze you need to use `maze.walk(dir)` with the direction you want to move in.
++ Om door het doolhof te bewegen moet je `maze.loop(richting)` gebruiken met de richting waarin je wilt bewegen.
     
-    Put the current compass direction in a `dir` variable, you'll need to set it for each compass direction:
+    Zet de huidige kompasrichting in een `richting` variabele, je moet deze voor elke kompasrichting instellen:
     
-    ![screenshot](images/compass-dir.png)
+    ![schermafbeelding](images/compass-dir.png)
 
-+ Now let's have the player move in the direction the Sense HAT compass is pointing when they press the middle button on the joystick.
++ Laten we de speler nu laten bewegen in de richting waarin het Sense HAT-kompas wijst wanneer ze op de middelste knop op de joystick drukken.
     
-    ![screenshot](images/compass-joystick.png)
+    ![schermafbeelding](images/compass-joystick.png)
 
-+ Try moving around the maze using the compass.
++ Probeer met het kompas door het doolhof te bewegen.
     
-    To press the joystick you need to click in the Sense HAT window and then press Enter (Return) on the keyboard.
+    Om op de joystick te drukken, klik je in het Sense HAT-venster en druk je op Enter (Return) op het toetsenbord.
 
-+ Test your project by moving the Sense HAT to the direction you want to move in and then tapping Enter on the keyboard.
++ Test je project door de Sense HAT te verplaatsen in de richting waarin je wilt bewegen en vervolgens op Enter op het toetsenbord te tikken.
     
-    Look at the map if you need help to find the Green room.
+    Kijk op de kaart als je hulp nodig hebt om de groene kamer te vinden.
 
-+ When the player reaches the Green room they have managed to escape the maze. Let's turn the screen green when they win and end the game:
++ Wanneer de speler de groene kamer bereikt, is hij erin geslaagd om uit het doolhof te ontsnappen. Laten we het scherm groen maken als ze winnen en het spel beëindigen:
     
-    ![screenshot](images/compass-end.png)
+    ![schermafbeelding](images/compass-end.png)
     
-    The `break` finished the loop to end the game.
+    De `break` beëindigd de lus om het spel te beëindigen.
