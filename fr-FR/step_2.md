@@ -8,7 +8,7 @@ Voici un rappel des points d'un compas :
 
 ![capture d'écran](images/compass-nsew.png)
 
-+ Ouvre le démarrage du projet « Une boussole dans le labyrinthe » dans Trinket : <a href="http://jumpto.cc/compass-go" target="_blank">jumpto.cc/compass-go</a>.
++ Ouvre le démarrage du projet « Une boussole dans le labyrinthe » dans Trinket : <a href="https://trinket.io/python/daf04452c1" target="_blank">trinket.io/python/daf04452c1</a>.
 
 + Voyons dans quelle direction le « Sense HAT » pointe. Ajoute le code suivant en bas de `main.py`:
     
