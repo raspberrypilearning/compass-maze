@@ -3,7 +3,7 @@
 Dans ce projet, tu utiliseras le Sense HAT comme une boussole pour naviguer dans un dédale de pièces colorées. Tu devras pointer le « Sense HAT » dans la direction dans laquelle tu souhaites te déplacer, puis appuyer sur le bouton au milieu du joystick pour faire un mouvement.
 
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/python/0c8cdacd70?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark">
+  <iframe src="https://trinket.io/embed/python/8c13caa456?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark">
 </iframe> <img src="images/compass-final.png" />
 </div>
 
@@ -30,11 +30,11 @@ Dans ce projet, les enfants apprendront à utiliser le magnétomètre du « Sens
 
 **Ce projet utilise Python 3.** Nous vous recommandons d'utiliser [Trinket](https://trinket.io/) pour écrire du code Python en ligne. Ce projet contient les Trinkets suivants :
 
-* ['Un compas dans le labyrinthe' Début -- jumpto.cc/compass-go](http://jumpto.cc/compass-go)
+* ['Un compas dans le labyrinthe' Début -- trinket.io/python/daf04452c1](https://trinket.io/python/daf04452c1)
 
 Il existe aussi ce trinket qui contient le projet terminé :
 
-* [‘Un compas dans le labyrinthe’ Terminé -- trinket.io/python/d11bf21615](https://trinket.io/python/d11bf21615)
+* [‘Un compas dans le labyrinthe’ Terminé -- trinket.io/python/8c13caa456](https://trinket.io/python/8c13caa456)
 
 ## Ressources hors ligne
 
@@ -73,7 +73,7 @@ title: Matériel pour projet
 ## Ressources du projet
 
 * [Fichier .zip contenant toutes les ressources du projet](resources/compass-maze-project-resources.zip)
-* [Démarrage du projet « Une boussole dans le labyrinthe »](http://jumpto.cc/compass-go)
+* [Démarrage du projet « Une boussole dans le labyrinthe »](https://trinket.io/python/8c13caa456)
 * [Fichier Python de démarrage hors ligne](resources/compass-maze-main.py)
 * [Fichier Python de démarrage hors ligne contenant le code de labyrinthe](resources/compass-maze-maze.py)
 
