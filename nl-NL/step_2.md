@@ -1,38 +1,38 @@
-## Finding the compass direction
+## De kompasrichting vinden
 
-The Sense HAT contains a magnetometer that can be used to work out which direction is North.
+De Sense HAT bevat een magnetometer waarmee kan worden bepaald welke richting het noorden is.
 
-In the emulator North corresponds to the top of your screen. The Sense HAT reports a compass heading in degrees from North.
+In de emulator komt Noord overeen met de bovenkant van je scherm. De Sense HAT meldt een kompasrichting in graden vanuit het noorden.
 
-Here's a reminder of the points of a compass:
+Hier is een herinnering aan de windstreken:
 
-![screenshot](images/compass-nsew.png)
+![schermafbeelding](images/compass-nsew.png)
 
-+ Open the Compass Maze Starter Trinket: <a href="http://jumpto.cc/compass-go" target="_blank">jumpto.cc/compass-go</a>.
++ Open de Kompasdoolhof start Trinket: <a href="http://jumpto.cc/compass-go" target="_blank">jumpto.cc/compass-go</a>.
 
-+ Let's find out which direction the Sense HAT is pointing in. Add the following code to the bottom of `main.py`:
++ Laten we eens kijken in welke richting de Sense HAT wijst. Voeg de volgende code toe onderaan `main.py`:
     
-    ![screenshot](images/compass-get.png)
+    ![schermafbeelding](images/compass-get.png)
 
-+ Run your code to see the compass heading - how many degrees you are from facing north.
++ Voer je code uit om de kompasrichting te zien - hoeveel graden je bent vanaf het noorden.
     
-    ![screenshot](images/compass-east.png)
+    ![schermafbeelding](images/compass-east.png)
     
-    In its starting position the Sense HAT is facing east and you should see values of about 90 degrees.
+    In de uitgangspositie is de Sense HAT naar het oosten gericht en zou je waarden van ongeveer 90 graden moeten zien.
     
-    The direction is based on the USB ports.
+    De richting is gebaseerd op de USB-poorten.
 
-+ Drag the Sense HAT around to change its direction.
++ Sleep de Sense HAT rond om de richting te veranderen.
     
-    ![screenshot](images/compass-north.png)
+    ![schermafbeelding](images/compass-north.png)
     
-    Try finding different directions:
+    Probeer verschillende richtingen te vinden:
     
-    + North: Around 360 or 0 degrees 
-    + East: Around 90 degrees
-    + South: Around 180 degrees
-    + West: Around 270 degrees
+    + Noord: rond 360 of 0 graden 
+    + Oost: ongeveer 90 graden
+    + Zuid: ongeveer 180 graden
+    + West: ongeveer 270 graden
 
-+ If you get in a muddle you can always click the reset button to put the Sense HAT back into its starting position.
++ Als je in de war raakt, kun je altijd op de resetknop klikken om de Sense HAT terug in de uitgangspositie te zetten.
     
-    ![screenshot](images/compass-reset.png)
+    ![schermafbeelding](images/compass-reset.png)
