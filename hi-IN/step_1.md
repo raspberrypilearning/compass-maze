@@ -66,7 +66,7 @@
 
 ## \--- collapse \---
 
-## शीर्षक: प्रोजेक्ट सामग्री
+## title: प्रोजेक्ट सामग्री
 
 ## प्रोजेक्ट संसाधन
 
@@ -75,7 +75,7 @@
 * [ऑफ़लाइन स्टार्टर Python फ़ाइल](resources/compass-maze-main.py)
 * [ऑफ़लाइन स्टार्टर Python फ़ाइल जिसमें भूलभुलैया कोड हैं](resources/compass-maze-maze.py)
 
-## क्लब लीडर resources
+## क्लब लीडर संसाधन
 
 * [सभी प्रोजेक्ट संसाधनों वाली .zip फ़ाइल](resources/compass-maze-volunteer-resources.zip)
 * [ऑनलाइन पूर्ण ट्रिंकट कम्पास भूलभुलैया प्रोजेक्ट](https://trinket.io/python/0c8cdacd70)
