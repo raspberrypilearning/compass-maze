@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: Reward the player
+## चुनौती: खिलाड़ी को पुरस्कृत करें
 
-Can you reward the player with a cool display on the Sense HAT when they manage to escape?
+जब खिलाड़ी बाहर निकलने में कामयाब हो जाते हैं तो क्या आप Sense HAT पर शानदार प्रदर्शन वाले खिलाड़ी को पुरस्कृत कर सकते हैं?
 
-You'll need to replace the highlighted code with your own code:
+आपको हाइलाइट किए गए कोड को अपने स्वयं के कोड से बदलने की आवश्यकता होगी:
 
-![screenshot](images/compass-reward.png)
+![स्क्रीनशॉट](images/compass-reward.png)
 
 \--- /challenge \---
