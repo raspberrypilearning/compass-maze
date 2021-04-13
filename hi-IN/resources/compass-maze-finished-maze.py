@@ -27,7 +27,7 @@ colours = { 'Blue' : [0, 0, 255],
 
 def start():
   #print a main menu and the commands
-  print('Find the green room to escape.')
+  print('बचने के लिए हरे कमरे का पता लगाएं।')
   showStatus()
 
 def showStatus():
@@ -37,13 +37,13 @@ def showStatus():
   print("---------------------------")
   
   if(currentRoom != 'Green'):
-    print("Exits: ")
+    print("बाहर निकलें:")
     print(*rooms[currentRoom].keys(), sep=', ')
   
 def getColour():
   return colours[currentRoom]
 
-#start the player in the middle
+# बीच में खिलाड़ी को स्टार्ट करें
 currentRoom = 'Blue'
 
 def walk(dir):
@@ -51,10 +51,10 @@ def walk(dir):
   if dir in rooms[currentRoom]:
   #set the current room to the new room
     currentRoom = rooms[currentRoom][dir]
-    print("You walk", dir)
-  #there is no door (link) to the new room
+    print("आप चलते हो", dir)
+  # नए कमरे में कोई दरवाजा (link) नहीं है
   else:
-    print('You can\'t go that way!')
+    print('आप उस रास्ते पर नहीं जा सकते!')
     
   showStatus()
     
