@@ -3,7 +3,7 @@
 from sense_hat import *
 import maze
 
-maze.start()
+maze.start ()
 
 sense = SenseHat()
 sense.clear()
