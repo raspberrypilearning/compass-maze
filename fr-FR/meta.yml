@@ -17,10 +17,12 @@ software: ''
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Introduction
-  - title: Trouver la direction de la boussole
-  - title: Montrer la direction de la boussole
-  - title: Naviguer dans le labyrinthe
-  - title: Ajouter des couleurs
-  - title: 'Défi : récompense le joueur'
-  - title: 'Défi : Crée ton propre labyrinthe'
+- title: Introduction
+  completion: engaged
+- title: Trouver la direction de la boussole
+- title: Montrer la direction de la boussole
+- title: Naviguer dans le labyrinthe
+- title: Ajouter des couleurs
+- title: 'Défi : récompense le joueur'
+  completion: internal
+- title: 'Défi : Crée ton propre labyrinthe'

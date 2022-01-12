@@ -17,10 +17,12 @@ software: ''
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: 'المقدمة'
-  - title: إيجاد اتجاه البوصلة
-  - title: عرض اتجاه البوصلة
-  - title: التنقل في المتاهة
-  - title: إضافة ألوان
-  - title: 'التحدي: مكافأة اللاعب'
-  - title: 'التحدي: إنشاء متاهة خاصة بك'
+- title: المقدمة
+  completion: engaged
+- title: إيجاد اتجاه البوصلة
+- title: عرض اتجاه البوصلة
+- title: التنقل في المتاهة
+- title: إضافة ألوان
+- title: 'التحدي: مكافأة اللاعب'
+  completion: internal
+- title: 'التحدي: إنشاء متاهة خاصة بك'

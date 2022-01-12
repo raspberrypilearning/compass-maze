@@ -16,11 +16,13 @@ hardware: sense-hat
 software: ''
 version: 3
 last_tested: 2017-01-01
-steps: 
-- title: 'Introduction'
+steps:
+- title: Introduction
+  completion: engaged
 - title: Finding the compass direction
 - title: Showing the compass direction
 - title: Navigating the maze
 - title: Add colours
 - title: 'Challenge: Reward the player'
+  completion: internal
 - title: 'Challenge: Create your own maze'

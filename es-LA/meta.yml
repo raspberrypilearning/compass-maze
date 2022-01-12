@@ -17,10 +17,12 @@ software: ''
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: 'Introducción'
-  - title: Encontrando la dirección de la brújula
-  - title: Mostrando la dirección de la brújula
-  - title: Navegando por el laberinto
-  - title: Agregar colores
-  - title: 'Desafío: recompensa al jugador'
-  - title: 'Desafío: crea tu propio laberinto'
+- title: Introducción
+  completion: engaged
+- title: Encontrando la dirección de la brújula
+- title: Mostrando la dirección de la brújula
+- title: Navegando por el laberinto
+- title: Agregar colores
+- title: 'Desafío: recompensa al jugador'
+  completion: internal
+- title: 'Desafío: crea tu propio laberinto'
