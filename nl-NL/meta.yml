@@ -17,10 +17,14 @@ software: ''
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: 'Inleiding'
-  - title: De kompasrichting vinden
-  - title: Laat de kompasrichting zien
-  - title: Navigeren door het doolhof
-  - title: Voeg kleuren toe
-  - title: 'Uitdaging: beloon de speler'
-  - title: 'Uitdaging: maak je eigen doolhof'
+- title: Inleiding
+- title: De kompasrichting vinden
+- title: Laat de kompasrichting zien
+  completion:
+  - engaged
+- title: Navigeren door het doolhof
+- title: Voeg kleuren toe
+  completion:
+  - internal
+- title: 'Uitdaging: beloon de speler'
+- title: 'Uitdaging: maak je eigen doolhof'
