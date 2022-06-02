@@ -18,11 +18,13 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: परिचय
-  completion: engaged
 - title: होकायंत्राने दिशा शोधणे
 - title: होकायंत्राने दिशा दाखविणे
+  completion:
+  - engaged
 - title: चक्रव्यूहमधून नॅव्हिगेट करणे
 - title: रंग जोडा
+  completion:
+  - internal
 - title: 'आव्हान: खेळाडूस बक्षीस द्या'
-  completion: internal
 - title: 'आव्हान: तुमचा स्वतःचा चक्रव्यूह तयार करा'

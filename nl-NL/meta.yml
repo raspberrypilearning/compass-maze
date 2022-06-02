@@ -18,11 +18,13 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Inleiding
-  completion: engaged
 - title: De kompasrichting vinden
 - title: Laat de kompasrichting zien
+  completion:
+  - engaged
 - title: Navigeren door het doolhof
 - title: Voeg kleuren toe
+  completion:
+  - internal
 - title: 'Uitdaging: beloon de speler'
-  completion: internal
 - title: 'Uitdaging: maak je eigen doolhof'

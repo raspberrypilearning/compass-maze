@@ -18,11 +18,13 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: परिचय
-  completion: engaged
 - title: कम्पास की दिशा ढूँढना
 - title: कम्पास की दिशा दिखाना
+  completion:
+  - engaged
 - title: भूलभुलैया में चलना
 - title: रंग जोड़ना
+  completion:
+  - internal
 - title: 'चुनौती: खिलाड़ी को पुरस्कृत करें'
-  completion: internal
 - title: 'चुनौती: अपनी खुद की भूलभुलैया बनाएँ'
